@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="SYIspCalculatorDialog">
+	</section>
+	<section name="WRProjectWizard">
+		<item value="Downloadable Kernel Module" key="WRGenericProjectWizardBuildTypePage.STORE_SELECTED_BUILD_TYPE"/>
+		<item value="vxworks-6.3" key="WRGenericProjectWizardBuildTypePage.STORE_SELECTED_PLATFORM"/>
+		<item value="vxworks-6.3" key="WRTargetOSWizardPage.STORE_SELECTED_PLATFORM"/>
+		<list key="WRWizardNewProjectCreationPage.STORE_PROJECT_LOCATION">
+			<item value="C:\WindRiver\workspace\2603NML"/>
+			<item value="C:\WindRiver\workspace\Mirkwood"/>
+			<item value="C:\WindRiver\workspace\Rivendell"/>
+			<item value="C:\WindRiver\workspace\Shire"/>
+		</list>
+	</section>
+	<section name="class com.windriver.ide.ui.staticanalysis.ispwizard.WRStoreGeneratedIncludesPage">
+	</section>
+	<section name="unchecked-vars">
+		<item value="false" key="show.inactiveIncludes"/>
+		<item value="true" key="hide.inactiveSystemIncludes"/>
+		<item value="false" key="hide.systemIncludes"/>
+		<item value="true" key="hide.followWorkspaceExternalIncludes"/>
+	</section>
+</section>

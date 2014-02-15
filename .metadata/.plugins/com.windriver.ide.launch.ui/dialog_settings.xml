@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="com.windriver.ide.launch.ui.context.WRFlatCompositeLaunchContextSelectorMediatorPage">
+		<section name="com.windriver.ide.launch.ui.context.WRFlatCompositeLaunchContextSelectorMediatorPage$WRFlatCompositeLaunchContextSelectorControl">
+			<item value="false" key="frc_UserProgram_StartupLibr - SimpleTemplate.out - VxWorks6x_10.26.3.2.hideUnconnected"/>
+			<item value="false" key="2014_8CRio.hideUnconnected"/>
+			<item value="false" key="2014_8C.hideUnconnected"/>
+			<item value="false" key="frc_Us - SimpleTemplate.out - VxWorks6x_10.26.3.2.hideUnconnected"/>
+			<item value="false" key="2014_8CR.hideUnconnected"/>
+			<item value="false" key="frc_UserProgra - SimpleTemplate.out - VxWorks6x_10.26.3.2.hideUnconnected"/>
+			<item value="false" key="frc_UserProgram_StartupL - SimpleTemplate.out - VxWorks6x_10.26.3.2.hideUnconnected"/>
+			<item value="false" key="frc_UserProgram_Startup - SimpleTemplate.out - VxWorks6x_10.26.3.2.hideUnconnected"/>
+			<item value="false" key="frc_UserProgr - SimpleTemplate.out - VxWorks6x_10.26.3.2.hideUnconnected"/>
+			<item value="false" key="frc_UserProgram_StartupLib - SimpleTemplate.out - VxWorks6x_10.26.3.2.hideUnconnected"/>
+			<item value="false" key="frc_User - SimpleTemplate.out - VxWorks6x_10.26.3.2.hideUnconnected"/>
+			<item value="false" key="frc_UserP - SimpleTemplate.out - VxWorks6x_10.26.3.2.hideUnconnected"/>
+			<item value="false" key="2014_8.hideUnconnected"/>
+			<item value="false" key="frc_UserProgram_StartupLibraryInit - SimpleTemplate.out - VxWorks6x_10.26.3.2.hideUnconnected"/>
+			<item value="false" key="2014_.hideUnconnected"/>
+			<item value="false" key="frc_UserProgram_StartupLi - SimpleTemplate.out - VxWorks6x_10.26.3.2.hideUnconnected"/>
+			<item value="false" key="frc_UserProgram_StartupLibrary - SimpleTemplate.out - VxWorks6x_10.26.3.2.hideUnconnected"/>
+			<item value="false" key="frc_UserProgram_St - SimpleTemplate.out - VxWorks6x_10.26.3.2.hideUnconnected"/>
+			<item value="false" key="2014.hideUnconnected"/>
+			<item value="false" key="New_configuration.hideUnconnected"/>
+			<item value="false" key="frc_U - SimpleTemplate.out - VxWorks6x_10.26.3.2.hideUnconnected"/>
+			<item value="false" key="noEntryPoint - SimpleTemplate.out - VxWorks6x_10.26.3.2.hideUnconnected"/>
+			<item value="false" key="frc_UserProgram_StartupLibra - SimpleTemplate.out - VxWorks6x_10.26.3.2.hideUnconnected"/>
+			<item value="false" key="frc_UserProg - SimpleTemplate.out - VxWorks6x_10.26.3.2.hideUnconnected"/>
+			<item value="false" key="frc_UserProgram_StartupLibraryI - SimpleTemplate.out - VxWorks6x_10.26.3.2.hideUnconnected"/>
+			<item value="false" key="2014_8CRui.hideUnconnected"/>
+			<item value="false" key="frc_UserProgram_Startu - SimpleTemplate.out - VxWorks6x_10.26.3.2.hideUnconnected"/>
+			<item value="false" key="frc_UserProgram_ - SimpleTemplate.out - VxWorks6x_10.26.3.2.hideUnconnected"/>
+			<item value="false" key="frc_UserProgram_Star - SimpleTemplate.out - VxWorks6x_10.26.3.2.hideUnconnected"/>
+			<item value="false" key="frc_UserProgram - SimpleTemplate.out - VxWorks6x_10.26.3.2.hideUnconnected"/>
+			<item value="false" key="frc_UserProgram_StartupLibrar - SimpleTemplate.out - VxWorks6x_10.26.3.2.hideUnconnected"/>
+			<item value="false" key="frc_UserPr - SimpleTemplate.out - VxWorks6x_10.26.3.2.hideUnconnected"/>
+			<item value="false" key="frc_UserProgram_StartupLibraryIn - SimpleTemplate.out - VxWorks6x_10.26.3.2.hideUnconnected"/>
+			<item value="false" key="frc_UserProgram_Sta - SimpleTemplate.out - VxWorks6x_10.26.3.2.hideUnconnected"/>
+			<item value="false" key="frc_UserProgram_S - SimpleTemplate.out - VxWorks6x_10.26.3.2.hideUnconnected"/>
+			<item value="false" key="2014_8C-.hideUnconnected"/>
+			<item value="false" key="frc - SimpleTemplate.out - VxWorks6x_10.26.3.2.hideUnconnected"/>
+			<item value="false" key="fr - SimpleTemplate.out - VxWorks6x_10.26.3.2.hideUnconnected"/>
+			<item value="false" key="frc_UserPro - SimpleTemplate.out - VxWorks6x_10.26.3.2.hideUnconnected"/>
+			<item value="false" key="frc_UserProgram_Start - SimpleTemplate.out - VxWorks6x_10.26.3.2.hideUnconnected"/>
+			<item value="false" key="frc_Use - SimpleTemplate.out - VxWorks6x_10.26.3.2.hideUnconnected"/>
+			<item value="false" key="frc_ - SimpleTemplate.out - VxWorks6x_10.26.3.2.hideUnconnected"/>
+			<item value="false" key="frc_UserProgram_StartupLibraryIni - SimpleTemplate.out - VxWorks6x_10.26.3.2.hideUnconnected"/>
+			<item value="false" key="f - SimpleTemplate.out - VxWorks6x_10.26.3.2.hideUnconnected"/>
+			<item value="false" key="noExecPath - VxWorks6x_10.26.3.2.hideUnconnected"/>
+		</section>
+	</section>
+	<section name="DebugSymbolBrowserView">
+		<item value="135360" key="DebugSymbolBrowserViewParticipant.FilterSettings"/>
+		<item value="true" key="DebugSymbolBrowserViewParticipant.ActiveDebugSession"/>
+	</section>
+	<section name="WRLaunchConfigSelectionDialog.com.windriver.ide.launch.vxworks6.tmRunTask">
+		<item value="false" key="new"/>
+		<item value="false" key="duplicate"/>
+		<item value="true" key="launch"/>
+		<item value="false" key="edit"/>
+	</section>
+	<section name="com.windriver.ide.launch.ui.context.WRCompositeContextSelectorTab">
+		<section name="com.windriver.ide.launch.ui.tabs.vxworks.kerneltask.WRVxWorksKernelTaskConfiguratorMediatorPage">
+			<item value="true" key="Advanced"/>
+		</section>
+		<section name="com.windriver.ide.launch.ui.tabs.vxworks.rtp.WRVxWorksRealTimeProcessConfiguratorMediatorPage">
+		</section>
+	</section>
+	<section name="WRVxWorksKernelTaskEntryPointSelectionDialog">
+	</section>
+</section>

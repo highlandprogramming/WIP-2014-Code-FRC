@@ -737,4 +737,4 @@ public:
 	}	
 };
 
-START_ROBOT_CLASS(RobotDemo)
+START_ROBOT_CLASS(RobotDemo);

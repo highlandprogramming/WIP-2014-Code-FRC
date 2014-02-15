@@ -1,0 +1,159 @@
+#include "WPILib.h"
+#include "Solenoid.h"
+#include "Compressor.h"
+#include "Victor.h"
+
+class RobotDemo : public SimpleRobot
+{
+	
+	
+	RobotDrive myRobot;// robot drive system
+	Victor* gravity; //pulls catapolt down 
+	//Victor (grenade);//pull the pin to launch the grenade
+	Joystick stick1; 
+	Joystick stick2;
+	Compressor *compressor;
+	Solenoid *s[8];
+	bool blnshift;
+	int firepin;
+	int ludicrous;
+	
+	 
+public:
+	RobotDemo():
+		
+			
+		myRobot(1,3,2,4),// these must be initialized in the same order	// as they are declared above.
+		//grenade(6),  
+		stick1(1),
+		stick2(2)
+		
+	
+		
+	{
+		//Init-----------
+				compressor = new Compressor(1,1);
+				s[0] = new Solenoid(1);
+				s[1] = new Solenoid(2);
+				s[2] = new Solenoid(3);
+				s[3] = new Solenoid(4);
+				s[4] = new Solenoid(5);
+				s[5] = new Solenoid(6);
+				s[6] = new Solenoid(7);
+				s[7] = new Solenoid(8);
+				gravity = new Victor(5),
+				//Victor *grenade = new Victor(5);
+				//Victor *gravity = new Victor(6);
+				myRobot.SetExpiration(0.1);
+	}
+		//Deconstructor
+			~RobotDemo()
+			{
+				delete gravity;
+				//delete grenade;
+				delete s[7];
+				delete s[6];
+				delete s[5];
+				delete s[4];
+				delete s[3];
+				delete s[2];
+				delete s[1];
+				delete s[0];
+				delete compressor;
+				
+				
+			}
+	
+	/**
+	 * Drive left & right motors for 2 seconds then stop
+	 */
+	void Autonomous()
+	{
+		
+		myRobot.SetSafetyEnabled(false);
+		myRobot.Drive(-0.5, 0.0); 	// drive forwards half speed
+		Wait(2.0); 				//    for 2 seconds
+		myRobot.Drive(0.0, 0.0); 	// stop robot
+	}
+
+	/**
+	 * Runs the motors with arcade steering. 
+	 */
+	void OperatorControl()
+	{
+		
+		//Pulldown.SetSafetyEnabled(true);
+		ludicrous = 1; 
+		firepin = 1;		
+		compressor->Start();
+		myRobot.SetSafetyEnabled(true);
+		
+		while (IsOperatorControl())
+		{
+			gravity->SetSpeed(0.5);
+			//Pulldown.ArcadeDrive(stick2);
+			myRobot.ArcadeDrive(stick1); // drive with arcade style (use right stick)
+			Wait(0.005);// wait for a motor update time
+			
+			
+			if(stick1.GetRawButton(7))//SUPER SHIFTERS low gear
+				{
+					GetWatchdog().Feed();
+					myRobot.ArcadeDrive(stick1);
+					s[3]->Set(true);
+				
+				}
+			else if(stick1.GetRawButton(6))//SUPERSTIFTERS high gear
+				{
+					GetWatchdog().Feed();
+					myRobot.ArcadeDrive(stick1);
+					s[3]->Set(false);
+				}
+			
+			
+		
+			if(stick2.GetRawButton(1) == (true))//fireing pin on trigger
+				{
+					GetWatchdog().Feed();
+					s[8]->Set(false);//SS N
+					s[1]->Set(true);
+					Wait(1.0);
+					s[1]->Set(false);
+					
+				}
+			else
+				{
+					GetWatchdog().Feed();
+					myRobot.ArcadeDrive(stick1);
+				}
+	
+			if(stick1.GetRawButton(3))// pullback on button 3
+				{
+					GetWatchdog().Feed();
+					//myRobot.ArcadeDrive(stick1); 
+					//s[8]->Set(true);
+					//Wait(0.5);
+					//gravity->Set(0.5);
+					//Wait(1.0);					
+				}
+			else
+				{
+					GetWatchdog().Feed();
+					myRobot.ArcadeDrive(stick1);
+				}
+				
+			}
+			
+	}
+	
+	/*
+	 * Runs during test mode
+	 */
+	void Test()
+	{
+
+	}
+};
+
+START_ROBOT_CLASS(RobotDemo);
+

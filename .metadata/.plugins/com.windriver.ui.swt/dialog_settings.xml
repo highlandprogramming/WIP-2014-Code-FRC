@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="CustomTitleAreaDialog">
+		<section name="com.windriver.ide.launch.ui.tabs.vxworks.kerneltask.download.WREditDownloadDialog$1">
+			<list key="WREditDownloadDialog.WREditDownloadDialog">
+				<item value="C:\WindRiver\workspace\SimpleTemplate\PPC603gnu\SimpleTemplate\Debug\SimpleTemplate.out"/>
+			</list>
+		</section>
+	</section>
+</section>

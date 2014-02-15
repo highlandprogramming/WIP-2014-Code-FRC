@@ -1,0 +1,2847 @@
+DFW status and trace log : Thu Feb 13 16:59:18 2014
+
+16:59:18.678 ERROR: no id specified
+  SevError(2) : programcontext.cpp : 5450
+16:59:18.681 ERROR: target definition defaultTarget has not been created
+  Protocol Component : SevError(2) : targetdefinitionmanager.cpp : 5122
+DFW status and trace log : Thu Feb 13 16:59:46 2014
+
+16:59:46.322 ERROR: Node 'TargetDefns' does not have a child name 'VxWorks6x_10.26.3.2': StdStructContainerInfoNode1::evalNodeChild
+  Protocol Component : SevError(2) : infonodehelper.hpp : 1645
+16:59:46.323 ERROR: Node 'TargetDefns' does not have a child name 'VxWorks6x_10.26.3.2'
+  Protocol Component : SevError(2) : infonodehelper.hpp : 1645
+16:59:46.328 ERROR: no id specified
+  SevError(2) : programcontext.cpp : 5450
+16:59:46.374 ERROR: no id specified
+  SevError(2) : programcontext.cpp : 5450
+16:59:46.374 ERROR: no id specified
+  SevError(2) : programcontext.cpp : 5450
+16:59:46.584 ERROR: Invalid core (CPU) id
+  SevError(2) : tccoreinfo.cpp : 849
+16:59:46.637 ERROR: Unsupported function call: TargetPluginAPI::GetTraceInfo
+  SevError(2) : tccallwrappers.cpp : 4532
+16:59:47.082 WARNING: No register with name 'FPRegisterAccess' exists: TOSComponent::PopulateRegisterData
+  SevWarning(1) : scregaccess.cpp : 3695
+16:59:47.082 WARNING: No register with name 'FPRegisterAccess' exists: TOSComponent::PopulateRegisterData
+  SevWarning(1) : scregaccess.cpp : 3695
+16:59:47.082 WARNING: No register with name 'FPRegisterAccess' exists
+  SevWarning(1) : scregaccess.cpp : 3695
+16:59:47.086 ERROR: Internal Error: Target connected notice when not connecting
+  SevInternalError(4) : contextstatemanagerimpl.cpp : 535
+16:59:47.101 ERROR: Property not found: ModuleOSManaged
+  Tos Component : SevError(2) : tosobject.cpp : 2488
+16:59:47.475 ERROR: Property not found: IsModulesSynched
+  Module Component : SevError(2) : modulecomponent.cpp : 280
+16:59:47.762 WARNING: Object file has minimal debug information: /c/ni-rt/system/FRC_UserProgram.out
+  SevWarning(1) : symbolmanager.cpp : 171
+16:59:47.780 WARNING: Object file has minimal debug information: /tmpout/FRC_NetworkCommunication.out
+  SevWarning(1) : symbolmanager.cpp : 171
+16:59:48.082 WARNING: Object file has minimal debug information: /tmpout/FRC_FPGA_ChipObject.out
+  SevWarning(1) : symbolmanager.cpp : 171
+16:59:48.093 WARNING: Object file has minimal debug information: /tmpout/NiFpga.out
+  SevWarning(1) : symbolmanager.cpp : 171
+16:59:48.099 WARNING: Object file has minimal debug information: /tmpout/niserial.out
+  SevWarning(1) : symbolmanager.cpp : 171
+16:59:48.128 WARNING: Object file has minimal debug information: /tmpout/nivision.out
+  SevWarning(1) : symbolmanager.cpp : 171
+16:59:48.147 WARNING: Object file has minimal debug information: /tmpout/nivissvc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+16:59:48.154 WARNING: Object file has minimal debug information: /tmpout/nisysrpc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+16:59:48.460 WARNING: Object file has minimal debug information: /tmpout/lvrt.out
+  SevWarning(1) : symbolmanager.cpp : 171
+16:59:48.478 WARNING: Object file has minimal debug information: /tmpout/niriomtk.out
+  SevWarning(1) : symbolmanager.cpp : 171
+16:59:48.484 WARNING: Object file has minimal debug information: /tmpout/target.out
+  SevWarning(1) : symbolmanager.cpp : 171
+16:59:48.502 WARNING: Object file has minimal debug information: /tmpout/vx_exec.out
+  SevWarning(1) : symbolmanager.cpp : 171
+16:59:48.508 WARNING: Object file has minimal debug information: /c/ni-rt/system/NiFpgaLv.out
+  SevWarning(1) : symbolmanager.cpp : 171
+16:59:48.516 WARNING: Object file has minimal debug information: /c/ni-rt/system/NiViSv32.out
+  SevWarning(1) : symbolmanager.cpp : 171
+16:59:48.526 WARNING: Object file has minimal debug information: /tmpout/NiRioSrv.out
+  SevWarning(1) : symbolmanager.cpp : 171
+16:59:48.534 WARNING: Object file has minimal debug information: /c/ni-rt/system/ni_emb.out
+  SevWarning(1) : symbolmanager.cpp : 171
+16:59:48.541 WARNING: Object file has minimal debug information: /tmpout/visa32.out
+  SevWarning(1) : symbolmanager.cpp : 171
+16:59:48.546 WARNING: Object file has minimal debug information: /tmpout/nisvcloc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+16:59:48.553 WARNING: Object file has minimal debug information: /tmpout/nirpcs.out
+  SevWarning(1) : symbolmanager.cpp : 171
+16:59:48.561 WARNING: Object file has minimal debug information: /tmpout/niCPULib.out
+  SevWarning(1) : symbolmanager.cpp : 171
+16:59:48.567 WARNING: Object file has minimal debug information: /c/ni-rt/system/nirtdm.out
+  SevWarning(1) : symbolmanager.cpp : 171
+16:59:48.578 WARNING: Object file has minimal debug information: /tmpout/nisysapi.out
+  SevWarning(1) : symbolmanager.cpp : 171
+16:59:48.582 WARNING: Object file has minimal debug information: /c/ni-rt/system/debug.o
+  SevWarning(1) : symbolmanager.cpp : 171
+16:59:48.588 WARNING: Object file has minimal debug information: /tmpout/tsengine.out
+  SevWarning(1) : symbolmanager.cpp : 171
+16:59:48.595 WARNING: Object file has minimal debug information: /tmpout/libexpat.out
+  SevWarning(1) : symbolmanager.cpp : 171
+16:59:48.601 WARNING: Object file has minimal debug information: /tmpout/nimdnsResponder.out
+  SevWarning(1) : symbolmanager.cpp : 171
+16:59:48.606 WARNING: Object file has minimal debug information: /c/ni-rt/system/vxfpsup.out
+  SevWarning(1) : symbolmanager.cpp : 171
+16:59:48.612 WARNING: Object file has minimal debug information: /c/ni-rt/system/NiRioRpc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+16:59:48.616 WARNING: Object file has minimal debug information: /c/ni-rt/system/nipci.out
+  SevWarning(1) : symbolmanager.cpp : 171
+16:59:48.621 WARNING: Object file has minimal debug information: /c/ni-rt/system/libpcre.out
+  SevWarning(1) : symbolmanager.cpp : 171
+16:59:48.626 WARNING: Object file has minimal debug information: /c/ni-rt/system/ftpserve.out
+  SevWarning(1) : symbolmanager.cpp : 171
+16:59:48.631 WARNING: Object file has minimal debug information: /c/ni-rt/system/NetConsole.out
+  SevWarning(1) : symbolmanager.cpp : 171
+16:59:48.636 WARNING: Object file has minimal debug information: /c/ni-rt/system/ts_rtc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+16:59:48.641 WARNING: Object file has minimal debug information: /tmpout/libiconv.out
+  SevWarning(1) : symbolmanager.cpp : 171
+16:59:48.645 WARNING: Object file has minimal debug information: /c/ni-rt/system/lvuste.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:03:43.141 ERROR: Disconnect in progress
+  SevError(2) : scruncontrol.cpp : 869
+17:03:43.162 ERROR: Target not connected: TargetComponent::CheckInitAndConnect
+  SevError(2) : targetcomponent.cpp : 2813
+17:03:43.162 ERROR: Target not connected
+  SevError(2) : targetcomponent.cpp : 2813
+17:03:43.163 ERROR: no id specified
+  SevError(2) : programcontext.cpp : 5450
+17:03:43.174 ERROR: Target not connected: TargetComponent::CheckInitAndConnect
+  SevError(2) : targetcomponent.cpp : 2813
+17:03:43.174 ERROR: Target not connected
+  SevError(2) : targetcomponent.cpp : 2813
+17:03:43.175 ERROR: no id specified
+  SevError(2) : programcontext.cpp : 5450
+17:06:03.334 ERROR: Target not connected: TargetComponent::CheckInitAndConnect
+  SevError(2) : targetcomponent.cpp : 2813
+17:06:03.334 ERROR: Target not connected
+  SevError(2) : targetcomponent.cpp : 2813
+17:06:03.335 ERROR: no id specified
+  SevError(2) : programcontext.cpp : 5450
+17:06:03.376 ERROR: no id specified
+  SevError(2) : programcontext.cpp : 5450
+17:06:03.376 ERROR: no id specified
+  SevError(2) : programcontext.cpp : 5450
+17:06:03.385 ERROR: Invalid core (CPU) id
+  SevError(2) : tccoreinfo.cpp : 849
+17:06:03.428 ERROR: Unsupported function call: TargetPluginAPI::GetTraceInfo
+  SevError(2) : tccallwrappers.cpp : 4532
+17:06:03.575 WARNING: No register with name 'FPRegisterAccess' exists: TOSComponent::PopulateRegisterData
+  SevWarning(1) : scregaccess.cpp : 3695
+17:06:03.575 WARNING: No register with name 'FPRegisterAccess' exists: TOSComponent::PopulateRegisterData
+  SevWarning(1) : scregaccess.cpp : 3695
+17:06:03.575 WARNING: No register with name 'FPRegisterAccess' exists
+  SevWarning(1) : scregaccess.cpp : 3695
+17:06:03.579 ERROR: Internal Error: Target connected notice when not connecting
+  SevInternalError(4) : contextstatemanagerimpl.cpp : 535
+17:06:03.593 ERROR: Property not found: ModuleOSManaged
+  Tos Component : SevError(2) : tosobject.cpp : 2488
+17:06:04.054 ERROR: Property not found: IsModulesSynched
+  Module Component : SevError(2) : modulecomponent.cpp : 280
+17:06:04.352 WARNING: Object file has minimal debug information: /c/ni-rt/system/FRC_UserProgram.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:06:04.369 WARNING: Object file has minimal debug information: /tmpout/FRC_NetworkCommunication.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:06:04.642 WARNING: Object file has minimal debug information: /tmpout/FRC_FPGA_ChipObject.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:06:04.652 WARNING: Object file has minimal debug information: /tmpout/NiFpga.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:06:04.657 WARNING: Object file has minimal debug information: /tmpout/niserial.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:06:04.685 WARNING: Object file has minimal debug information: /tmpout/nivision.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:06:04.704 WARNING: Object file has minimal debug information: /tmpout/nivissvc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:06:04.710 WARNING: Object file has minimal debug information: /tmpout/nisysrpc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:06:05.019 WARNING: Object file has minimal debug information: /tmpout/lvrt.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:06:05.036 WARNING: Object file has minimal debug information: /tmpout/niriomtk.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:06:05.043 WARNING: Object file has minimal debug information: /tmpout/target.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:06:05.061 WARNING: Object file has minimal debug information: /tmpout/vx_exec.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:06:05.067 WARNING: Object file has minimal debug information: /c/ni-rt/system/NiFpgaLv.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:06:05.074 WARNING: Object file has minimal debug information: /c/ni-rt/system/NiViSv32.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:06:05.085 WARNING: Object file has minimal debug information: /tmpout/NiRioSrv.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:06:05.092 WARNING: Object file has minimal debug information: /c/ni-rt/system/ni_emb.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:06:05.101 WARNING: Object file has minimal debug information: /tmpout/visa32.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:06:05.106 WARNING: Object file has minimal debug information: /tmpout/nisvcloc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:06:05.113 WARNING: Object file has minimal debug information: /tmpout/nirpcs.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:06:05.121 WARNING: Object file has minimal debug information: /tmpout/niCPULib.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:06:05.127 WARNING: Object file has minimal debug information: /c/ni-rt/system/nirtdm.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:06:05.138 WARNING: Object file has minimal debug information: /tmpout/nisysapi.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:06:05.144 WARNING: Object file has minimal debug information: /c/ni-rt/system/debug.o
+  SevWarning(1) : symbolmanager.cpp : 171
+17:06:05.150 WARNING: Object file has minimal debug information: /tmpout/tsengine.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:06:05.157 WARNING: Object file has minimal debug information: /tmpout/libexpat.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:06:05.163 WARNING: Object file has minimal debug information: /tmpout/nimdnsResponder.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:06:05.168 WARNING: Object file has minimal debug information: /c/ni-rt/system/vxfpsup.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:06:05.174 WARNING: Object file has minimal debug information: /c/ni-rt/system/NiRioRpc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:06:05.179 WARNING: Object file has minimal debug information: /c/ni-rt/system/nipci.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:06:05.186 WARNING: Object file has minimal debug information: /c/ni-rt/system/libpcre.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:06:05.190 WARNING: Object file has minimal debug information: /c/ni-rt/system/ftpserve.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:06:05.196 WARNING: Object file has minimal debug information: /c/ni-rt/system/NetConsole.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:06:05.201 WARNING: Object file has minimal debug information: /c/ni-rt/system/ts_rtc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:06:05.206 WARNING: Object file has minimal debug information: /tmpout/libiconv.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:06:05.210 WARNING: Object file has minimal debug information: /c/ni-rt/system/lvuste.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:14:01.578 ERROR: Target not connected
+  SevError(2) : torwtxCommon.cpp : 1057
+17:14:03.199 WARNING: Object file has minimal debug information: /tmpout/nivissvc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:14:03.205 WARNING: Object file has minimal debug information: /tmpout/nisysrpc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:14:03.510 WARNING: Object file has minimal debug information: /tmpout/lvrt.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:14:03.526 WARNING: Object file has minimal debug information: /tmpout/niriomtk.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:14:03.532 WARNING: Object file has minimal debug information: /tmpout/target.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:14:03.549 WARNING: Object file has minimal debug information: /tmpout/vx_exec.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:14:03.559 WARNING: Object file has minimal debug information: /tmpout/NiRioSrv.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:14:03.566 WARNING: Object file has minimal debug information: /c/ni-rt/system/ni_emb.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:14:03.570 WARNING: Object file has minimal debug information: /tmpout/nisvcloc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:14:03.577 WARNING: Object file has minimal debug information: /tmpout/nirpcs.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:14:03.584 WARNING: Object file has minimal debug information: /tmpout/niCPULib.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:14:03.589 WARNING: Object file has minimal debug information: /c/ni-rt/system/nirtdm.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:14:03.599 WARNING: Object file has minimal debug information: /tmpout/nisysapi.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:14:03.605 WARNING: Object file has minimal debug information: /c/ni-rt/system/debug.o
+  SevWarning(1) : symbolmanager.cpp : 171
+17:14:03.634 WARNING: Object file has minimal debug information: /tmpout/nivision.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:14:03.640 WARNING: Object file has minimal debug information: /tmpout/tsengine.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:14:03.649 WARNING: Object file has minimal debug information: /tmpout/libexpat.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:14:03.659 WARNING: Object file has minimal debug information: /tmpout/nimdnsResponder.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:14:03.718 WARNING: Object file has minimal debug information: /c/ni-rt/system/vxfpsup.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:14:03.723 WARNING: Object file has minimal debug information: /c/ni-rt/system/NiRioRpc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:14:03.727 WARNING: Object file has minimal debug information: /c/ni-rt/system/nipci.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:14:03.731 WARNING: Object file has minimal debug information: /c/ni-rt/system/ftpserve.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:14:03.736 WARNING: Object file has minimal debug information: /c/ni-rt/system/NetConsole.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:14:03.739 WARNING: Object file has minimal debug information: /c/ni-rt/system/ts_rtc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:14:03.743 WARNING: Object file has minimal debug information: /tmpout/libiconv.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:14:03.747 WARNING: Object file has minimal debug information: /c/ni-rt/system/lvuste.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:14:03.754 WARNING: Object file has minimal debug information: /c/ni-rt/system/NiViSv32.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:14:03.777 WARNING: Object file has minimal debug information: /tmpout/visa32.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:14:03.795 WARNING: Object file has minimal debug information: /tmpout/niserial.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:14:03.897 WARNING: Object file has minimal debug information: /tmpout/NiFpga.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:14:03.958 WARNING: Object file has minimal debug information: /c/ni-rt/system/NiFpgaLv.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:14:05.420 WARNING: Object file has minimal debug information: /tmpout/FRC_FPGA_ChipObject.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:14:05.513 WARNING: Object file has minimal debug information: /tmpout/FRC_NetworkCommunication.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:19:04.829 ERROR: Property not found: ModuleOSManaged
+  Tos Component : SevError(2) : tosobject.cpp : 2488
+17:19:04.884 ERROR: Program context is undefined
+  SevError(2) : scdataaccess.cpp : 2922
+17:19:04.884 ERROR: Cannot determine register repository for context '': SCRegisterAccess::GetPC
+  SevError(2) : programcontext.cpp : 4495
+17:19:04.884 ERROR: Cannot determine register repository for context ''
+  SevError(2) : programcontext.cpp : 4495
+17:19:05.157 ERROR: The module requires OS information to perform relocations.: ModuleInfo::GetAddressAdjustments
+  Module Component : SevError(2) : moduleslist.cpp : 2476
+17:19:05.157 ERROR: The module requires OS information to perform relocations.
+  Module Component : SevError(2) : moduleslist.cpp : 2476
+17:19:05.157 WARNING: The module requires OS information to perform relocations.: moduleload.cpp::AdjustSectionsAddress
+  Module Component : SevWarning(1) : moduleload.cpp : 975
+17:19:05.157 WARNING: The module requires OS information to perform relocations.
+  Module Component : SevWarning(1) : moduleload.cpp : 975
+17:19:05.157 ERROR: Program context is undefined
+  SevError(2) : scdataaccess.cpp : 2922
+17:19:05.157 ERROR: Cannot determine register repository for context '': SCRegisterAccess::GetPC
+  SevError(2) : programcontext.cpp : 4495
+17:19:05.157 ERROR: Cannot determine register repository for context ''
+  SevError(2) : programcontext.cpp : 4495
+17:20:29.201 ERROR: Debugging information not available
+  Symbol Component : SevError(2) : symbolaccessspt.cpp : 4450
+17:20:29.224 ERROR: The TOS object is not initialized
+  Tos Component : SevError(2) : tosobject.cpp : 2205
+17:20:29.424 ERROR: Unrecognized property: General:ReverseStepping
+  SevError(2) : tcproperties.cpp : 92
+17:20:29.424 ERROR: Unrecognized property: General:ReverseStepping
+  SevError(2) : tcproperties.cpp : 92
+17:20:29.424 ERROR: Unrecognized property: General:ReverseStepping
+  SevError(2) : tcproperties.cpp : 92
+17:20:29.424 ERROR: Unrecognized property: General:ReverseStepping
+  SevError(2) : tcproperties.cpp : 92
+17:20:29.518 ERROR: Debugging information not available
+  Symbol Component : SevError(2) : symbolaccessspt.cpp : 4450
+17:20:29.666 ERROR: The TOS object is not initialized
+  Tos Component : SevError(2) : tosobject.cpp : 2205
+17:20:29.666 ERROR: The TOS object is not initialized
+  Tos Component : SevError(2) : tosobject.cpp : 2205
+17:20:29.818 ERROR: The TOS object is not initialized
+  Tos Component : SevError(2) : tosobject.cpp : 2205
+17:20:29.819 ERROR: The TOS object is not initialized
+  Tos Component : SevError(2) : tosobject.cpp : 2205
+17:20:30.833 ERROR: No register with name 'mq' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.833 ERROR: No register with name 'mq' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.833 ERROR: No register with name 'MQ' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.833 ERROR: No register with name 'MQ' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.833 ERROR: No register with name 'spr0' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.833 ERROR: No register with name 'spr0' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.833 ERROR: No register with name 'SPR0' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.833 ERROR: No register with name 'SPR0' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.834 ERROR: No register with name 'rtcu_r' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.834 ERROR: No register with name 'rtcu_r' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.834 ERROR: No register with name 'RTCU_R' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.834 ERROR: No register with name 'RTCU_R' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.834 ERROR: No register with name 'spr4' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.834 ERROR: No register with name 'spr4' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.834 ERROR: No register with name 'SPR4' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.834 ERROR: No register with name 'SPR4' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.834 ERROR: No register with name 'rtcl_r' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.834 ERROR: No register with name 'rtcl_r' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.834 ERROR: No register with name 'RTCL_R' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.834 ERROR: No register with name 'RTCL_R' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.834 ERROR: No register with name 'spr5' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.834 ERROR: No register with name 'spr5' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.834 ERROR: No register with name 'SPR5' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.834 ERROR: No register with name 'SPR5' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.834 ERROR: No register with name 'dsisr' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.834 ERROR: No register with name 'dsisr' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.834 ERROR: No register with name 'DSISR' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.834 ERROR: No register with name 'DSISR' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.834 ERROR: No register with name 'spr18' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.834 ERROR: No register with name 'spr18' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.834 ERROR: No register with name 'SPR18' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.834 ERROR: No register with name 'SPR18' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.834 ERROR: No register with name 'dar' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.834 ERROR: No register with name 'dar' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.834 ERROR: No register with name 'DAR' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.834 ERROR: No register with name 'DAR' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.834 ERROR: No register with name 'spr19' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.834 ERROR: No register with name 'spr19' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.834 ERROR: No register with name 'SPR19' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.834 ERROR: No register with name 'SPR19' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.834 ERROR: No register with name 'rtcu_w' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.834 ERROR: No register with name 'rtcu_w' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.835 ERROR: No register with name 'RTCU_W' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.835 ERROR: No register with name 'RTCU_W' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.835 ERROR: No register with name 'spr20' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.835 ERROR: No register with name 'spr20' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.835 ERROR: No register with name 'SPR20' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.835 ERROR: No register with name 'SPR20' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.835 ERROR: No register with name 'rtcl_w' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.835 ERROR: No register with name 'rtcl_w' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.835 ERROR: No register with name 'RTCL_W' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.835 ERROR: No register with name 'RTCL_W' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.835 ERROR: No register with name 'spr21' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.835 ERROR: No register with name 'spr21' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.835 ERROR: No register with name 'SPR21' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.835 ERROR: No register with name 'SPR21' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.835 ERROR: No register with name 'dec' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.835 ERROR: No register with name 'dec' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.835 ERROR: No register with name 'DEC' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.835 ERROR: No register with name 'DEC' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.835 ERROR: No register with name 'spr22' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.835 ERROR: No register with name 'spr22' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.835 ERROR: No register with name 'SPR22' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.835 ERROR: No register with name 'SPR22' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.835 ERROR: No register with name 'sdr1' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.835 ERROR: No register with name 'sdr1' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.835 ERROR: No register with name 'SDR1' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.835 ERROR: No register with name 'SDR1' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.835 ERROR: No register with name 'spr25' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.835 ERROR: No register with name 'spr25' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.835 ERROR: No register with name 'SPR25' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.835 ERROR: No register with name 'SPR25' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.835 ERROR: No register with name 'srr0' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.835 ERROR: No register with name 'srr0' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.835 ERROR: No register with name 'SRR0' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.836 ERROR: No register with name 'SRR0' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.836 ERROR: No register with name 'spr26' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.836 ERROR: No register with name 'spr26' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.836 ERROR: No register with name 'SPR26' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.836 ERROR: No register with name 'SPR26' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.836 ERROR: No register with name 'srr1' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.836 ERROR: No register with name 'srr1' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.836 ERROR: No register with name 'SRR1' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.836 ERROR: No register with name 'SRR1' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.836 ERROR: No register with name 'spr27' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.836 ERROR: No register with name 'spr27' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.836 ERROR: No register with name 'SPR27' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.836 ERROR: No register with name 'SPR27' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.836 ERROR: No register with name 'eie' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.836 ERROR: No register with name 'eie' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.836 ERROR: No register with name 'EIE' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.836 ERROR: No register with name 'EIE' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.836 ERROR: No register with name 'spr80' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.836 ERROR: No register with name 'spr80' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.836 ERROR: No register with name 'SPR80' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.836 ERROR: No register with name 'SPR80' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.836 ERROR: No register with name 'eid' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.836 ERROR: No register with name 'eid' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.836 ERROR: No register with name 'EID' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.836 ERROR: No register with name 'EID' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.836 ERROR: No register with name 'spr81' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.836 ERROR: No register with name 'spr81' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.836 ERROR: No register with name 'SPR81' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.836 ERROR: No register with name 'SPR81' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.836 ERROR: No register with name 'nri' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.836 ERROR: No register with name 'nri' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.836 ERROR: No register with name 'NRI' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.836 ERROR: No register with name 'NRI' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.836 ERROR: No register with name 'spr82' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.837 ERROR: No register with name 'spr82' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.837 ERROR: No register with name 'SPR82' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.837 ERROR: No register with name 'SPR82' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.837 ERROR: No register with name 'vrsave' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.837 ERROR: No register with name 'vrsave' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.837 ERROR: No register with name 'VRSAVE' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.837 ERROR: No register with name 'VRSAVE' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.837 ERROR: No register with name 'spr256' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.837 ERROR: No register with name 'spr256' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.837 ERROR: No register with name 'SPR256' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.837 ERROR: No register with name 'SPR256' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.837 ERROR: No register with name 'sprg0' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.837 ERROR: No register with name 'sprg0' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.837 ERROR: No register with name 'SPRG0' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.837 ERROR: No register with name 'SPRG0' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.837 ERROR: No register with name 'spr272' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.837 ERROR: No register with name 'spr272' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.837 ERROR: No register with name 'SPR272' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.837 ERROR: No register with name 'SPR272' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.837 ERROR: No register with name 'sprg1' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.837 ERROR: No register with name 'sprg1' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.837 ERROR: No register with name 'SPRG1' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.837 ERROR: No register with name 'SPRG1' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.837 ERROR: No register with name 'spr273' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.837 ERROR: No register with name 'spr273' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.837 ERROR: No register with name 'SPR273' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.837 ERROR: No register with name 'SPR273' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.837 ERROR: No register with name 'sprg2' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.837 ERROR: No register with name 'sprg2' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.838 ERROR: No register with name 'SPRG2' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.838 ERROR: No register with name 'SPRG2' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.838 ERROR: No register with name 'spr274' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.838 ERROR: No register with name 'spr274' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.838 ERROR: No register with name 'SPR274' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.838 ERROR: No register with name 'SPR274' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.838 ERROR: No register with name 'sprg3' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.838 ERROR: No register with name 'sprg3' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.838 ERROR: No register with name 'SPRG3' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.838 ERROR: No register with name 'SPRG3' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.838 ERROR: No register with name 'spr275' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.838 ERROR: No register with name 'spr275' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.838 ERROR: No register with name 'SPR275' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.838 ERROR: No register with name 'SPR275' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.838 ERROR: No register with name 'sprg4' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.838 ERROR: No register with name 'sprg4' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.838 ERROR: No register with name 'SPRG4' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.838 ERROR: No register with name 'SPRG4' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.838 ERROR: No register with name 'spr276' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.838 ERROR: No register with name 'spr276' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.838 ERROR: No register with name 'SPR276' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.838 ERROR: No register with name 'SPR276' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.838 ERROR: No register with name 'sprg5' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.838 ERROR: No register with name 'sprg5' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.838 ERROR: No register with name 'SPRG5' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.838 ERROR: No register with name 'SPRG5' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.838 ERROR: No register with name 'spr277' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.838 ERROR: No register with name 'spr277' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.838 ERROR: No register with name 'SPR277' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.838 ERROR: No register with name 'SPR277' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.838 ERROR: No register with name 'sprg6' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.838 ERROR: No register with name 'sprg6' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.839 ERROR: No register with name 'SPRG6' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.839 ERROR: No register with name 'SPRG6' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.839 ERROR: No register with name 'spr278' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.839 ERROR: No register with name 'spr278' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.839 ERROR: No register with name 'SPR278' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.839 ERROR: No register with name 'SPR278' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.839 ERROR: No register with name 'sprg7' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.839 ERROR: No register with name 'sprg7' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.839 ERROR: No register with name 'SPRG7' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.839 ERROR: No register with name 'SPRG7' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.839 ERROR: No register with name 'spr279' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.839 ERROR: No register with name 'spr279' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.839 ERROR: No register with name 'SPR279' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.839 ERROR: No register with name 'SPR279' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.839 ERROR: No register with name 'asr' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.839 ERROR: No register with name 'asr' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.839 ERROR: No register with name 'ASR' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.839 ERROR: No register with name 'ASR' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.839 ERROR: No register with name 'spr280' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.839 ERROR: No register with name 'spr280' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.839 ERROR: No register with name 'SPR280' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.839 ERROR: No register with name 'SPR280' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.839 ERROR: No register with name 'ear' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.839 ERROR: No register with name 'ear' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.839 ERROR: No register with name 'EAR' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.839 ERROR: No register with name 'EAR' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.839 ERROR: No register with name 'spr282' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.839 ERROR: No register with name 'spr282' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.839 ERROR: No register with name 'SPR282' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.839 ERROR: No register with name 'SPR282' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.839 ERROR: No register with name 'tbl' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.839 ERROR: No register with name 'tbl' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.840 ERROR: No register with name 'TBL' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.840 ERROR: No register with name 'TBL' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.840 ERROR: No register with name 'spr284' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.840 ERROR: No register with name 'spr284' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.840 ERROR: No register with name 'SPR284' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.840 ERROR: No register with name 'SPR284' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.840 ERROR: No register with name 'tbu' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.840 ERROR: No register with name 'tbu' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.840 ERROR: No register with name 'TBU' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.840 ERROR: No register with name 'TBU' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.840 ERROR: No register with name 'spr285' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.840 ERROR: No register with name 'spr285' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.840 ERROR: No register with name 'SPR285' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.840 ERROR: No register with name 'SPR285' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.840 ERROR: No register with name 'svr' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.840 ERROR: No register with name 'svr' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.840 ERROR: No register with name 'SVR' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.840 ERROR: No register with name 'SVR' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.840 ERROR: No register with name 'spr286' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.840 ERROR: No register with name 'spr286' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.840 ERROR: No register with name 'SPR286' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.840 ERROR: No register with name 'SPR286' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.840 ERROR: No register with name 'pvr' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.840 ERROR: No register with name 'pvr' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.840 ERROR: No register with name 'PVR' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.840 ERROR: No register with name 'PVR' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.840 ERROR: No register with name 'spr287' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.840 ERROR: No register with name 'spr287' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.840 ERROR: No register with name 'SPR287' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.840 ERROR: No register with name 'SPR287' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.840 ERROR: No register with name 'immr' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.840 ERROR: No register with name 'immr' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.841 ERROR: No register with name 'IMMR' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.841 ERROR: No register with name 'IMMR' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.841 ERROR: No register with name 'spr638' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.841 ERROR: No register with name 'spr638' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.841 ERROR: No register with name 'SPR638' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.841 ERROR: No register with name 'SPR638' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.841 ERROR: No register with name 'mi_ctr' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.841 ERROR: No register with name 'mi_ctr' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.841 ERROR: No register with name 'MI_CTR' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.841 ERROR: No register with name 'MI_CTR' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.841 ERROR: No register with name 'spr784' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.841 ERROR: No register with name 'spr784' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.841 ERROR: No register with name 'SPR784' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.841 ERROR: No register with name 'SPR784' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.841 ERROR: No register with name 'mi_ap' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.841 ERROR: No register with name 'mi_ap' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.841 ERROR: No register with name 'MI_AP' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.841 ERROR: No register with name 'MI_AP' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.841 ERROR: No register with name 'spr786' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.841 ERROR: No register with name 'spr786' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.841 ERROR: No register with name 'SPR786' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.841 ERROR: No register with name 'SPR786' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.841 ERROR: No register with name 'mi_epn' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.841 ERROR: No register with name 'mi_epn' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.841 ERROR: No register with name 'MI_EPN' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.841 ERROR: No register with name 'MI_EPN' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.841 ERROR: No register with name 'spr787' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.841 ERROR: No register with name 'spr787' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.841 ERROR: No register with name 'SPR787' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.841 ERROR: No register with name 'SPR787' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.841 ERROR: No register with name 'mi_twc' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.841 ERROR: No register with name 'mi_twc' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.841 ERROR: No register with name 'MI_TWC' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.842 ERROR: No register with name 'MI_TWC' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.842 ERROR: No register with name 'spr789' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.842 ERROR: No register with name 'spr789' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.842 ERROR: No register with name 'SPR789' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.842 ERROR: No register with name 'SPR789' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.842 ERROR: No register with name 'mi_rpn' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.842 ERROR: No register with name 'mi_rpn' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.842 ERROR: No register with name 'MI_RPN' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.842 ERROR: No register with name 'MI_RPN' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.842 ERROR: No register with name 'spr790' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.842 ERROR: No register with name 'spr790' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.842 ERROR: No register with name 'SPR790' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.842 ERROR: No register with name 'SPR790' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.842 ERROR: No register with name 'md_ctr' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.842 ERROR: No register with name 'md_ctr' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.842 ERROR: No register with name 'MD_CTR' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.842 ERROR: No register with name 'MD_CTR' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.842 ERROR: No register with name 'spr792' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.842 ERROR: No register with name 'spr792' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.842 ERROR: No register with name 'SPR792' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.842 ERROR: No register with name 'SPR792' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.842 ERROR: No register with name 'm_casid' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.842 ERROR: No register with name 'm_casid' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.842 ERROR: No register with name 'M_CASID' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.842 ERROR: No register with name 'M_CASID' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.842 ERROR: No register with name 'spr793' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.842 ERROR: No register with name 'spr793' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.842 ERROR: No register with name 'SPR793' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.842 ERROR: No register with name 'SPR793' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.842 ERROR: No register with name 'md_ap' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.842 ERROR: No register with name 'md_ap' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.842 ERROR: No register with name 'MD_AP' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.842 ERROR: No register with name 'MD_AP' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.843 ERROR: No register with name 'spr794' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.843 ERROR: No register with name 'spr794' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.843 ERROR: No register with name 'SPR794' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.843 ERROR: No register with name 'SPR794' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.843 ERROR: No register with name 'mmcr0' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.843 ERROR: No register with name 'mmcr0' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.843 ERROR: No register with name 'MMCR0' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.843 ERROR: No register with name 'MMCR0' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.843 ERROR: No register with name 'spr952' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.843 ERROR: No register with name 'spr952' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.843 ERROR: No register with name 'SPR952' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.843 ERROR: No register with name 'SPR952' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.843 ERROR: No register with name 'pmc1' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.843 ERROR: No register with name 'pmc1' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.843 ERROR: No register with name 'PMC1' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.843 ERROR: No register with name 'PMC1' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.843 ERROR: No register with name 'spr953' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.843 ERROR: No register with name 'spr953' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.843 ERROR: No register with name 'SPR953' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.843 ERROR: No register with name 'SPR953' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.843 ERROR: No register with name 'pmc2' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.843 ERROR: No register with name 'pmc2' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.843 ERROR: No register with name 'PMC2' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.843 ERROR: No register with name 'PMC2' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.843 ERROR: No register with name 'spr954' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.843 ERROR: No register with name 'spr954' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.843 ERROR: No register with name 'SPR954' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.843 ERROR: No register with name 'SPR954' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.843 ERROR: No register with name 'sia' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.843 ERROR: No register with name 'sia' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.843 ERROR: No register with name 'SIA' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.843 ERROR: No register with name 'SIA' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.843 ERROR: No register with name 'spr955' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.843 ERROR: No register with name 'spr955' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.843 ERROR: No register with name 'SPR955' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.844 ERROR: No register with name 'SPR955' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.844 ERROR: No register with name 'sda' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.844 ERROR: No register with name 'sda' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.844 ERROR: No register with name 'SDA' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.844 ERROR: No register with name 'SDA' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.844 ERROR: No register with name 'spr959' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.844 ERROR: No register with name 'spr959' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.844 ERROR: No register with name 'SPR959' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.844 ERROR: No register with name 'SPR959' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.844 ERROR: No register with name 'hid0' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.844 ERROR: No register with name 'hid0' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.844 ERROR: No register with name 'HID0' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.844 ERROR: No register with name 'HID0' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.844 ERROR: No register with name 'spr1008' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.844 ERROR: No register with name 'spr1008' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.844 ERROR: No register with name 'SPR1008' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.844 ERROR: No register with name 'SPR1008' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.844 ERROR: No register with name 'hid1' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.844 ERROR: No register with name 'hid1' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.844 ERROR: No register with name 'HID1' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.844 ERROR: No register with name 'HID1' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.844 ERROR: No register with name 'spr1009' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.844 ERROR: No register with name 'spr1009' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.844 ERROR: No register with name 'SPR1009' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.844 ERROR: No register with name 'SPR1009' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.844 ERROR: No register with name 'iabr' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.844 ERROR: No register with name 'iabr' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.845 ERROR: No register with name 'IABR' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.845 ERROR: No register with name 'IABR' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.845 ERROR: No register with name 'spr1010' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.845 ERROR: No register with name 'spr1010' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.845 ERROR: No register with name 'SPR1010' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.845 ERROR: No register with name 'SPR1010' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.845 ERROR: No register with name 'hid2' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.845 ERROR: No register with name 'hid2' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.845 ERROR: No register with name 'HID2' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.845 ERROR: No register with name 'HID2' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.845 ERROR: No register with name 'spr1011' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.845 ERROR: No register with name 'spr1011' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.845 ERROR: No register with name 'SPR1011' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.845 ERROR: No register with name 'SPR1011' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.845 ERROR: No register with name 'dabr' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.845 ERROR: No register with name 'dabr' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.845 ERROR: No register with name 'DABR' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.845 ERROR: No register with name 'DABR' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.845 ERROR: No register with name 'spr1013' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.845 ERROR: No register with name 'spr1013' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.845 ERROR: No register with name 'SPR1013' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.845 ERROR: No register with name 'SPR1013' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.845 ERROR: No register with name 'msscr0' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.845 ERROR: No register with name 'msscr0' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.845 ERROR: No register with name 'MSSCR0' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.845 ERROR: No register with name 'MSSCR0' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.845 ERROR: No register with name 'spr1014' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.845 ERROR: No register with name 'spr1014' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.845 ERROR: No register with name 'SPR1014' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.845 ERROR: No register with name 'SPR1014' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.845 ERROR: No register with name 'ictc' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.846 ERROR: No register with name 'ictc' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.846 ERROR: No register with name 'ICTC' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.846 ERROR: No register with name 'ICTC' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.846 ERROR: No register with name 'spr1019' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.846 ERROR: No register with name 'spr1019' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.846 ERROR: No register with name 'SPR1019' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.846 ERROR: No register with name 'SPR1019' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.846 ERROR: No register with name 'pir' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.846 ERROR: No register with name 'pir' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.846 ERROR: No register with name 'PIR' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.846 ERROR: No register with name 'PIR' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.846 ERROR: No register with name 'spr1023' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.846 ERROR: No register with name 'spr1023' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.846 ERROR: No register with name 'SPR1023' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.846 ERROR: No register with name 'SPR1023' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:20:30.850 ERROR: No information available for stack walk
+  SevError(2) : ppi_ppc_stack.cpp : 5412
+17:20:36.052 ERROR: Symbol not found: SymbolComponent::GetVariable
+  Symbol Component : SevError(2) : symbolcomponent.cpp : 4449
+17:20:36.052 ERROR: Symbol not found
+  Symbol Component : SevError(2) : symbolcomponent.cpp : 4449
+17:20:36.052 ERROR: cannot find symbol 'ludicrous' in scope
+  Expression evaluator : SevError(2) : expressioneval.cpp : 1859
+17:21:29.641 ERROR: The program context is marked as deleted
+  SevError(2) : dtacell.cpp : 566
+17:21:30.234 ERROR: WTX Agent Error: No agent process
+  SevError(2) : wtxerrors.cpp : 1035
+17:21:30.263 ERROR: WTX Agent Error: No agent process
+  SevError(2) : wtxerrors.cpp : 1035
+17:21:42.210 ERROR: Object Id does not match ObjectType: expected=KernelTask, actual=UnknownType
+  SevError(2) : vxWorksPluginObjectQueryLib.cpp : 3704
+17:21:57.998 ERROR: Disconnect in progress
+  SevError(2) : scruncontrol.cpp : 869
+17:21:58.009 ERROR: The program context is marked as deleted
+  SevError(2) : scruncontrol.cpp : 865
+17:21:58.009 ERROR: Program context has no Core defined
+  SevError(2) : tccoreinfo.cpp : 609
+17:21:58.009 ERROR: Invalid core (CPU) id
+  SevError(2) : tccoreinfo.cpp : 849
+17:21:58.009 ERROR: Program context has no Core defined
+  SevError(2) : targetcomponent.cpp : 1275
+17:21:58.009 ERROR: Program context is undefined
+  SevError(2) : targetcomponent.cpp : 4534
+17:21:58.009 ERROR: Program context has no Core defined
+  SevError(2) : tccoreinfo.cpp : 508
+17:21:58.009 ERROR: Program context has no Core defined
+  SevError(2) : tccoreinfo.cpp : 416
+17:21:58.009 ERROR: Program context has no Core defined
+  SevError(2) : targetcomponent.cpp : 1033
+17:21:58.014 ERROR: Target not connected: TargetComponent::CheckInitAndConnect
+  SevError(2) : targetcomponent.cpp : 2813
+17:21:58.014 ERROR: Target not connected
+  SevError(2) : targetcomponent.cpp : 2813
+17:21:58.020 ERROR: no id specified
+  SevError(2) : programcontext.cpp : 5450
+17:21:58.029 ERROR: Target not connected: TargetComponent::CheckInitAndConnect
+  SevError(2) : targetcomponent.cpp : 2813
+17:21:58.029 ERROR: Target not connected
+  SevError(2) : targetcomponent.cpp : 2813
+17:21:58.030 ERROR: no id specified
+  SevError(2) : programcontext.cpp : 5450
+17:22:03.567 ERROR: Target not connected: TargetComponent::CheckInitAndConnect
+  SevError(2) : targetcomponent.cpp : 2813
+17:22:03.567 ERROR: Target not connected
+  SevError(2) : targetcomponent.cpp : 2813
+17:22:03.568 ERROR: no id specified
+  SevError(2) : programcontext.cpp : 5450
+17:22:03.587 ERROR: no id specified
+  SevError(2) : programcontext.cpp : 5450
+17:22:03.587 ERROR: no id specified
+  SevError(2) : programcontext.cpp : 5450
+17:22:03.595 ERROR: Invalid core (CPU) id
+  SevError(2) : tccoreinfo.cpp : 849
+17:22:03.615 ERROR: Unsupported function call: TargetPluginAPI::GetTraceInfo
+  SevError(2) : tccallwrappers.cpp : 4532
+17:22:03.745 WARNING: No register with name 'FPRegisterAccess' exists: TOSComponent::PopulateRegisterData
+  SevWarning(1) : scregaccess.cpp : 3695
+17:22:03.745 WARNING: No register with name 'FPRegisterAccess' exists: TOSComponent::PopulateRegisterData
+  SevWarning(1) : scregaccess.cpp : 3695
+17:22:03.745 WARNING: No register with name 'FPRegisterAccess' exists
+  SevWarning(1) : scregaccess.cpp : 3695
+17:22:03.749 ERROR: Internal Error: Target connected notice when not connecting
+  SevInternalError(4) : contextstatemanagerimpl.cpp : 535
+17:22:03.762 ERROR: Property not found: ModuleOSManaged
+  Tos Component : SevError(2) : tosobject.cpp : 2488
+17:22:04.108 ERROR: Property not found: IsModulesSynched
+  Module Component : SevError(2) : modulecomponent.cpp : 280
+17:22:04.224 WARNING: Object file has minimal debug information: /tmpout/FRC_NetworkCommunication.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:22:04.484 WARNING: Object file has minimal debug information: /tmpout/FRC_FPGA_ChipObject.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:22:04.494 WARNING: Object file has minimal debug information: /tmpout/NiFpga.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:22:04.499 WARNING: Object file has minimal debug information: /tmpout/niserial.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:22:04.528 WARNING: Object file has minimal debug information: /tmpout/nivision.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:22:04.548 WARNING: Object file has minimal debug information: /tmpout/nivissvc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:22:04.555 WARNING: Object file has minimal debug information: /tmpout/nisysrpc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:22:04.863 WARNING: Object file has minimal debug information: /tmpout/lvrt.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:22:04.881 WARNING: Object file has minimal debug information: /tmpout/niriomtk.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:22:04.888 WARNING: Object file has minimal debug information: /tmpout/target.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:22:04.909 WARNING: Object file has minimal debug information: /tmpout/vx_exec.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:22:04.916 WARNING: Object file has minimal debug information: /c/ni-rt/system/NiFpgaLv.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:22:04.923 WARNING: Object file has minimal debug information: /c/ni-rt/system/NiViSv32.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:22:04.934 WARNING: Object file has minimal debug information: /tmpout/NiRioSrv.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:22:04.941 WARNING: Object file has minimal debug information: /c/ni-rt/system/ni_emb.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:22:04.949 WARNING: Object file has minimal debug information: /tmpout/visa32.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:22:04.954 WARNING: Object file has minimal debug information: /tmpout/nisvcloc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:22:04.962 WARNING: Object file has minimal debug information: /tmpout/nirpcs.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:22:04.969 WARNING: Object file has minimal debug information: /tmpout/niCPULib.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:22:04.975 WARNING: Object file has minimal debug information: /c/ni-rt/system/nirtdm.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:22:04.986 WARNING: Object file has minimal debug information: /tmpout/nisysapi.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:22:04.991 WARNING: Object file has minimal debug information: /c/ni-rt/system/debug.o
+  SevWarning(1) : symbolmanager.cpp : 171
+17:22:04.997 WARNING: Object file has minimal debug information: /tmpout/tsengine.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:22:05.003 WARNING: Object file has minimal debug information: /tmpout/libexpat.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:22:05.010 WARNING: Object file has minimal debug information: /tmpout/nimdnsResponder.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:22:05.015 WARNING: Object file has minimal debug information: /c/ni-rt/system/vxfpsup.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:22:05.021 WARNING: Object file has minimal debug information: /c/ni-rt/system/NiRioRpc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:22:05.026 WARNING: Object file has minimal debug information: /c/ni-rt/system/nipci.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:22:05.030 WARNING: Object file has minimal debug information: /c/ni-rt/system/ftpserve.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:22:05.036 WARNING: Object file has minimal debug information: /c/ni-rt/system/NetConsole.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:22:05.041 WARNING: Object file has minimal debug information: /c/ni-rt/system/ts_rtc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:22:05.045 WARNING: Object file has minimal debug information: /tmpout/libiconv.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:22:05.050 WARNING: Object file has minimal debug information: /c/ni-rt/system/lvuste.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:22:33.070 ERROR: Object Id does not match ObjectType: expected=KernelTask, actual=UnknownType
+  SevError(2) : vxWorksPluginObjectQueryLib.cpp : 3704
+17:23:07.176 ERROR: Target not connected
+  SevError(2) : torwtxCommon.cpp : 1057
+17:23:08.252 WARNING: Object file has minimal debug information: /tmpout/nivision.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:23:08.254 ERROR: The register model 'UndefReg' is not supported by the system
+  SevError(2) : programcontext.cpp : 4384
+17:23:08.299 WARNING: Object file has minimal debug information: /c/ni-rt/system/NiViSv32.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:23:08.320 WARNING: Object file has minimal debug information: /tmpout/visa32.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:23:08.378 ERROR: Unrecognized property: General:ReverseStepping
+  SevError(2) : tcproperties.cpp : 92
+17:23:08.378 ERROR: Unrecognized property: General:ReverseStepping
+  SevError(2) : tcproperties.cpp : 92
+17:23:08.379 ERROR: Unrecognized property: General:ReverseStepping
+  SevError(2) : tcproperties.cpp : 92
+17:23:08.379 ERROR: Unrecognized property: General:ReverseStepping
+  SevError(2) : tcproperties.cpp : 92
+17:23:08.387 ERROR: Unrecognized property: General:ReverseStepping
+  SevError(2) : tcproperties.cpp : 92
+17:23:08.387 ERROR: Unrecognized property: General:ReverseStepping
+  SevError(2) : tcproperties.cpp : 92
+17:23:08.387 ERROR: Unrecognized property: General:ReverseStepping
+  SevError(2) : tcproperties.cpp : 92
+17:23:08.387 ERROR: Unrecognized property: General:ReverseStepping
+  SevError(2) : tcproperties.cpp : 92
+17:23:08.388 ERROR: Unrecognized property: General:ReverseStepping
+  SevError(2) : tcproperties.cpp : 92
+17:23:08.388 ERROR: Unrecognized property: General:ReverseStepping
+  SevError(2) : tcproperties.cpp : 92
+17:23:08.389 ERROR: Unrecognized property: General:ReverseStepping
+  SevError(2) : tcproperties.cpp : 92
+17:23:08.389 ERROR: Unrecognized property: General:ReverseStepping
+  SevError(2) : tcproperties.cpp : 92
+17:23:08.394 WARNING: Object file has minimal debug information: /tmpout/nivissvc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:23:08.401 WARNING: Object file has minimal debug information: /tmpout/nisysrpc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:23:08.688 WARNING: Object file has minimal debug information: /tmpout/lvrt.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:23:08.705 WARNING: Object file has minimal debug information: /tmpout/niriomtk.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:23:08.711 WARNING: Object file has minimal debug information: /tmpout/target.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:23:08.728 WARNING: Object file has minimal debug information: /tmpout/vx_exec.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:23:08.738 WARNING: Object file has minimal debug information: /tmpout/NiRioSrv.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:23:08.745 WARNING: Object file has minimal debug information: /c/ni-rt/system/ni_emb.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:23:08.749 WARNING: Object file has minimal debug information: /tmpout/nisvcloc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:23:08.759 WARNING: Object file has minimal debug information: /tmpout/nirpcs.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:23:08.816 WARNING: Object file has minimal debug information: /tmpout/niCPULib.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:23:08.824 WARNING: Object file has minimal debug information: /c/ni-rt/system/nirtdm.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:23:08.833 WARNING: Object file has minimal debug information: /tmpout/nisysapi.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:23:08.838 WARNING: Object file has minimal debug information: /c/ni-rt/system/debug.o
+  SevWarning(1) : symbolmanager.cpp : 171
+17:23:08.843 WARNING: Object file has minimal debug information: /tmpout/niserial.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:23:08.848 WARNING: Object file has minimal debug information: /tmpout/tsengine.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:23:08.853 WARNING: Object file has minimal debug information: /tmpout/libexpat.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:23:08.859 WARNING: Object file has minimal debug information: /tmpout/nimdnsResponder.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:23:08.865 WARNING: Object file has minimal debug information: /c/ni-rt/system/vxfpsup.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:23:08.876 WARNING: Object file has minimal debug information: /c/ni-rt/system/NiRioRpc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:23:08.880 WARNING: Object file has minimal debug information: /c/ni-rt/system/nipci.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:23:08.884 WARNING: Object file has minimal debug information: /c/ni-rt/system/ftpserve.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:23:08.892 WARNING: Object file has minimal debug information: /c/ni-rt/system/NetConsole.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:23:08.906 WARNING: Object file has minimal debug information: /tmpout/NiFpga.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:23:08.910 WARNING: Object file has minimal debug information: /c/ni-rt/system/ts_rtc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:23:08.914 WARNING: Object file has minimal debug information: /tmpout/libiconv.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:23:08.918 WARNING: Object file has minimal debug information: /c/ni-rt/system/lvuste.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:23:08.923 WARNING: Object file has minimal debug information: /c/ni-rt/system/NiFpgaLv.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:23:09.769 WARNING: Object file has minimal debug information: /tmpout/FRC_FPGA_ChipObject.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:23:10.043 WARNING: Object file has minimal debug information: /tmpout/FRC_NetworkCommunication.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:24:15.483 ERROR: Disconnect in progress
+  SevError(2) : scruncontrol.cpp : 869
+17:24:15.493 ERROR: The program context is marked as deleted
+  SevError(2) : scruncontrol.cpp : 865
+17:24:15.493 ERROR: Program context has no Core defined
+  SevError(2) : targetcomponent.cpp : 2901
+17:24:15.493 ERROR: Program context is undefined
+  SevError(2) : targetcomponent.cpp : 4534
+17:24:15.493 ERROR: Program context has no Core defined
+  SevError(2) : tccoreinfo.cpp : 508
+17:24:15.493 ERROR: Program context has no Core defined
+  SevError(2) : tccoreinfo.cpp : 416
+17:24:15.493 ERROR: Program context has no Core defined
+  SevError(2) : targetcomponent.cpp : 1033
+17:24:15.499 ERROR: Target not connected: TargetComponent::CheckInitAndConnect
+  SevError(2) : targetcomponent.cpp : 2813
+17:24:15.500 ERROR: Target not connected
+  SevError(2) : targetcomponent.cpp : 2813
+17:24:15.516 ERROR: no id specified
+  SevError(2) : programcontext.cpp : 5450
+17:24:15.524 ERROR: Target not connected: TargetComponent::CheckInitAndConnect
+  SevError(2) : targetcomponent.cpp : 2813
+17:24:15.524 ERROR: Target not connected
+  SevError(2) : targetcomponent.cpp : 2813
+17:24:15.525 ERROR: no id specified
+  SevError(2) : programcontext.cpp : 5450
+17:24:20.310 ERROR: no id specified
+  SevError(2) : programcontext.cpp : 5450
+17:24:20.310 ERROR: no id specified
+  SevError(2) : programcontext.cpp : 5450
+17:24:20.319 ERROR: Invalid core (CPU) id
+  SevError(2) : tccoreinfo.cpp : 849
+17:24:20.339 ERROR: Unsupported function call: TargetPluginAPI::GetTraceInfo
+  SevError(2) : tccallwrappers.cpp : 4532
+17:24:20.479 WARNING: No register with name 'FPRegisterAccess' exists: TOSComponent::PopulateRegisterData
+  SevWarning(1) : scregaccess.cpp : 3695
+17:24:20.479 WARNING: No register with name 'FPRegisterAccess' exists: TOSComponent::PopulateRegisterData
+  SevWarning(1) : scregaccess.cpp : 3695
+17:24:20.479 WARNING: No register with name 'FPRegisterAccess' exists
+  SevWarning(1) : scregaccess.cpp : 3695
+17:24:20.486 ERROR: Internal Error: Target connected notice when not connecting
+  SevInternalError(4) : contextstatemanagerimpl.cpp : 535
+17:24:20.500 ERROR: Property not found: ModuleOSManaged
+  Tos Component : SevError(2) : tosobject.cpp : 2488
+17:24:20.853 ERROR: Property not found: IsModulesSynched
+  Module Component : SevError(2) : modulecomponent.cpp : 280
+17:24:20.897 WARNING: Object file has minimal debug information: /tmpout/FRC_NetworkCommunication.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:24:21.189 WARNING: Object file has minimal debug information: /tmpout/FRC_FPGA_ChipObject.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:24:21.201 WARNING: Object file has minimal debug information: /tmpout/NiFpga.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:24:21.207 WARNING: Object file has minimal debug information: /tmpout/niserial.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:24:21.236 WARNING: Object file has minimal debug information: /tmpout/nivision.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:24:21.255 WARNING: Object file has minimal debug information: /tmpout/nivissvc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:24:21.262 WARNING: Object file has minimal debug information: /tmpout/nisysrpc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:24:21.586 WARNING: Object file has minimal debug information: /tmpout/lvrt.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:24:21.606 WARNING: Object file has minimal debug information: /tmpout/niriomtk.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:24:21.615 WARNING: Object file has minimal debug information: /tmpout/target.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:24:21.637 WARNING: Object file has minimal debug information: /tmpout/vx_exec.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:24:21.646 WARNING: Object file has minimal debug information: /c/ni-rt/system/NiFpgaLv.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:24:21.656 WARNING: Object file has minimal debug information: /c/ni-rt/system/NiViSv32.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:24:21.671 WARNING: Object file has minimal debug information: /tmpout/NiRioSrv.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:24:21.681 WARNING: Object file has minimal debug information: /c/ni-rt/system/ni_emb.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:24:21.692 WARNING: Object file has minimal debug information: /tmpout/visa32.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:24:21.699 WARNING: Object file has minimal debug information: /tmpout/nisvcloc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:24:21.709 WARNING: Object file has minimal debug information: /tmpout/nirpcs.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:24:21.719 WARNING: Object file has minimal debug information: /tmpout/niCPULib.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:24:21.726 WARNING: Object file has minimal debug information: /c/ni-rt/system/nirtdm.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:24:21.739 WARNING: Object file has minimal debug information: /tmpout/nisysapi.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:24:21.745 WARNING: Object file has minimal debug information: /c/ni-rt/system/debug.o
+  SevWarning(1) : symbolmanager.cpp : 171
+17:24:21.751 WARNING: Object file has minimal debug information: /tmpout/tsengine.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:24:21.759 WARNING: Object file has minimal debug information: /tmpout/libexpat.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:24:21.767 WARNING: Object file has minimal debug information: /tmpout/nimdnsResponder.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:24:21.775 WARNING: Object file has minimal debug information: /c/ni-rt/system/vxfpsup.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:24:21.781 WARNING: Object file has minimal debug information: /c/ni-rt/system/NiRioRpc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:24:21.786 WARNING: Object file has minimal debug information: /c/ni-rt/system/nipci.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:24:21.792 WARNING: Object file has minimal debug information: /c/ni-rt/system/ftpserve.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:24:21.797 WARNING: Object file has minimal debug information: /c/ni-rt/system/NetConsole.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:24:21.802 WARNING: Object file has minimal debug information: /c/ni-rt/system/ts_rtc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:24:21.808 WARNING: Object file has minimal debug information: /tmpout/libiconv.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:24:21.813 WARNING: Object file has minimal debug information: /c/ni-rt/system/lvuste.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:24:42.331 ERROR: The program context is marked as deleted
+  SevError(2) : dtacell.cpp : 566
+17:33:24.848 ERROR: Object Id does not match ObjectType: expected=KernelTask, actual=UnknownType
+  SevError(2) : vxWorksPluginObjectQueryLib.cpp : 3704
+17:33:27.724 ERROR: Object Id does not match ObjectType: expected=KernelTask, actual=UnknownType
+  SevError(2) : vxWorksPluginObjectQueryLib.cpp : 3704
+17:33:30.161 ERROR: Unsupported function call: TargetPluginAPI::TOSContextRefresh
+  SevError(2) : tccallwrappers.cpp : 6236
+17:33:31.275 ERROR: The TOS object is not initialized
+  Tos Component : SevError(2) : tosobject.cpp : 2205
+17:33:31.492 ERROR: Unrecognized property: General:ReverseStepping
+  SevError(2) : tcproperties.cpp : 92
+17:33:31.492 ERROR: Unrecognized property: General:ReverseStepping
+  SevError(2) : tcproperties.cpp : 92
+17:33:31.492 ERROR: Unrecognized property: General:ReverseStepping
+  SevError(2) : tcproperties.cpp : 92
+17:33:31.492 ERROR: Unrecognized property: General:ReverseStepping
+  SevError(2) : tcproperties.cpp : 92
+17:33:31.508 ERROR: The TOS object is not initialized
+  Tos Component : SevError(2) : tosobject.cpp : 2205
+17:33:31.509 ERROR: The TOS object is not initialized
+  Tos Component : SevError(2) : tosobject.cpp : 2205
+17:33:31.522 ERROR: The TOS object is not initialized
+  Tos Component : SevError(2) : tosobject.cpp : 2205
+17:33:31.522 ERROR: The TOS object is not initialized
+  Tos Component : SevError(2) : tosobject.cpp : 2205
+17:33:31.720 ERROR: Unknown thread/program-context id 264
+  SevError(2) : programcontext.cpp : 5380
+17:33:31.721 ERROR: Unknown thread/program-context id 264
+  SevError(2) : programcontext.cpp : 5380
+17:33:31.862 ERROR: The program context is marked as deleted
+  SevError(2) : dtacell.cpp : 566
+17:33:31.864 ERROR: The program context is marked as deleted
+  SevError(2) : dtacell.cpp : 566
+17:33:31.942 ERROR: No scope for address: CallTraceList::GetFunctionStart
+  SevError(2) : callstacklist.cpp : 470
+17:33:31.942 ERROR: No scope for address
+  SevError(2) : callstacklist.cpp : 470
+17:33:31.944 ERROR: No register with name 'mq' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.944 ERROR: No register with name 'mq' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.944 ERROR: No register with name 'MQ' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.944 ERROR: No register with name 'MQ' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.944 ERROR: No register with name 'spr0' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.944 ERROR: No register with name 'spr0' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.944 ERROR: No register with name 'SPR0' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.944 ERROR: No register with name 'SPR0' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.944 ERROR: No register with name 'rtcu_r' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.944 ERROR: No register with name 'rtcu_r' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.944 ERROR: No register with name 'RTCU_R' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.944 ERROR: No register with name 'RTCU_R' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.944 ERROR: No register with name 'spr4' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.944 ERROR: No register with name 'spr4' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.944 ERROR: No register with name 'SPR4' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.944 ERROR: No register with name 'SPR4' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.944 ERROR: No register with name 'rtcl_r' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.944 ERROR: No register with name 'rtcl_r' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.944 ERROR: No register with name 'RTCL_R' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.944 ERROR: No register with name 'RTCL_R' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.944 ERROR: No register with name 'spr5' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.944 ERROR: No register with name 'spr5' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.944 ERROR: No register with name 'SPR5' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.944 ERROR: No register with name 'SPR5' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.945 ERROR: No register with name 'dsisr' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.945 ERROR: No register with name 'dsisr' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.945 ERROR: No register with name 'DSISR' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.945 ERROR: No register with name 'DSISR' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.945 ERROR: No register with name 'spr18' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.945 ERROR: No register with name 'spr18' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.945 ERROR: No register with name 'SPR18' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.945 ERROR: No register with name 'SPR18' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.945 ERROR: No register with name 'dar' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.945 ERROR: No register with name 'dar' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.945 ERROR: No register with name 'DAR' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.945 ERROR: No register with name 'DAR' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.945 ERROR: No register with name 'spr19' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.945 ERROR: No register with name 'spr19' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.945 ERROR: No register with name 'SPR19' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.945 ERROR: No register with name 'SPR19' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.945 ERROR: No register with name 'rtcu_w' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.945 ERROR: No register with name 'rtcu_w' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.945 ERROR: No register with name 'RTCU_W' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.945 ERROR: No register with name 'RTCU_W' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.945 ERROR: No register with name 'spr20' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.945 ERROR: No register with name 'spr20' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.945 ERROR: No register with name 'SPR20' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.945 ERROR: No register with name 'SPR20' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.945 ERROR: No register with name 'rtcl_w' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.945 ERROR: No register with name 'rtcl_w' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.945 ERROR: No register with name 'RTCL_W' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.945 ERROR: No register with name 'RTCL_W' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.945 ERROR: No register with name 'spr21' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.945 ERROR: No register with name 'spr21' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.945 ERROR: No register with name 'SPR21' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.946 ERROR: No register with name 'SPR21' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.946 ERROR: No register with name 'dec' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.946 ERROR: No register with name 'dec' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.946 ERROR: No register with name 'DEC' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.946 ERROR: No register with name 'DEC' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.946 ERROR: No register with name 'spr22' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.946 ERROR: No register with name 'spr22' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.946 ERROR: No register with name 'SPR22' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.946 ERROR: No register with name 'SPR22' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.946 ERROR: No register with name 'sdr1' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.946 ERROR: No register with name 'sdr1' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.946 ERROR: No register with name 'SDR1' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.946 ERROR: No register with name 'SDR1' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.946 ERROR: No register with name 'spr25' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.946 ERROR: No register with name 'spr25' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.946 ERROR: No register with name 'SPR25' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.946 ERROR: No register with name 'SPR25' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.946 ERROR: No register with name 'srr0' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.946 ERROR: No register with name 'srr0' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.946 ERROR: No register with name 'SRR0' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.946 ERROR: No register with name 'SRR0' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.946 ERROR: No register with name 'spr26' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.946 ERROR: No register with name 'spr26' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.946 ERROR: No register with name 'SPR26' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.946 ERROR: No register with name 'SPR26' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.946 ERROR: No register with name 'srr1' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.946 ERROR: No register with name 'srr1' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.946 ERROR: No register with name 'SRR1' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.946 ERROR: No register with name 'SRR1' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.946 ERROR: No register with name 'spr27' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.946 ERROR: No register with name 'spr27' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.946 ERROR: No register with name 'SPR27' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.946 ERROR: No register with name 'SPR27' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.946 ERROR: No register with name 'eie' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.946 ERROR: No register with name 'eie' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.947 ERROR: No register with name 'EIE' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.947 ERROR: No register with name 'EIE' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.947 ERROR: No register with name 'spr80' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.947 ERROR: No register with name 'spr80' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.947 ERROR: No register with name 'SPR80' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.947 ERROR: No register with name 'SPR80' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.947 ERROR: No register with name 'eid' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.947 ERROR: No register with name 'eid' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.947 ERROR: No register with name 'EID' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.947 ERROR: No register with name 'EID' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.947 ERROR: No register with name 'spr81' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.947 ERROR: No register with name 'spr81' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.947 ERROR: No register with name 'SPR81' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.947 ERROR: No register with name 'SPR81' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.947 ERROR: No register with name 'nri' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.947 ERROR: No register with name 'nri' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.947 ERROR: No register with name 'NRI' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.947 ERROR: No register with name 'NRI' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.947 ERROR: No register with name 'spr82' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.947 ERROR: No register with name 'spr82' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.947 ERROR: No register with name 'SPR82' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.947 ERROR: No register with name 'SPR82' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.947 ERROR: No register with name 'vrsave' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.947 ERROR: No register with name 'vrsave' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.947 ERROR: No register with name 'VRSAVE' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.947 ERROR: No register with name 'VRSAVE' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.947 ERROR: No register with name 'spr256' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.947 ERROR: No register with name 'spr256' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.948 ERROR: No register with name 'SPR256' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.948 ERROR: No register with name 'SPR256' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.948 ERROR: No register with name 'sprg0' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.948 ERROR: No register with name 'sprg0' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.948 ERROR: No register with name 'SPRG0' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.948 ERROR: No register with name 'SPRG0' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.948 ERROR: No register with name 'spr272' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.948 ERROR: No register with name 'spr272' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.948 ERROR: No register with name 'SPR272' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.948 ERROR: No register with name 'SPR272' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.948 ERROR: No register with name 'sprg1' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.948 ERROR: No register with name 'sprg1' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.948 ERROR: No register with name 'SPRG1' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.948 ERROR: No register with name 'SPRG1' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.948 ERROR: No register with name 'spr273' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.948 ERROR: No register with name 'spr273' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.948 ERROR: No register with name 'SPR273' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.948 ERROR: No register with name 'SPR273' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.948 ERROR: No register with name 'sprg2' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.948 ERROR: No register with name 'sprg2' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.948 ERROR: No register with name 'SPRG2' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.948 ERROR: No register with name 'SPRG2' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.948 ERROR: No register with name 'spr274' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.948 ERROR: No register with name 'spr274' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.948 ERROR: No register with name 'SPR274' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.948 ERROR: No register with name 'SPR274' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.948 ERROR: No register with name 'sprg3' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.948 ERROR: No register with name 'sprg3' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.948 ERROR: No register with name 'SPRG3' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.948 ERROR: No register with name 'SPRG3' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.949 ERROR: No register with name 'spr275' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.949 ERROR: No register with name 'spr275' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.949 ERROR: No register with name 'SPR275' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.949 ERROR: No register with name 'SPR275' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.949 ERROR: No register with name 'sprg4' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.949 ERROR: No register with name 'sprg4' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.949 ERROR: No register with name 'SPRG4' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.949 ERROR: No register with name 'SPRG4' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.949 ERROR: No register with name 'spr276' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.949 ERROR: No register with name 'spr276' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.949 ERROR: No register with name 'SPR276' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.949 ERROR: No register with name 'SPR276' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.949 ERROR: No register with name 'sprg5' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.949 ERROR: No register with name 'sprg5' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.949 ERROR: No register with name 'SPRG5' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.949 ERROR: No register with name 'SPRG5' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.949 ERROR: No register with name 'spr277' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.949 ERROR: No register with name 'spr277' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.949 ERROR: No register with name 'SPR277' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.949 ERROR: No register with name 'SPR277' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.949 ERROR: No register with name 'sprg6' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.949 ERROR: No register with name 'sprg6' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.950 ERROR: No register with name 'SPRG6' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.950 ERROR: No register with name 'SPRG6' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.950 ERROR: No register with name 'spr278' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.950 ERROR: No register with name 'spr278' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.950 ERROR: No register with name 'SPR278' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.950 ERROR: No register with name 'SPR278' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.950 ERROR: No register with name 'sprg7' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.950 ERROR: No register with name 'sprg7' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.950 ERROR: No register with name 'SPRG7' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.950 ERROR: No register with name 'SPRG7' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.951 ERROR: No register with name 'spr279' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.951 ERROR: No register with name 'spr279' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.951 ERROR: No register with name 'SPR279' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.951 ERROR: No register with name 'SPR279' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.952 ERROR: No register with name 'asr' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.952 ERROR: No register with name 'asr' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.952 ERROR: No register with name 'ASR' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.952 ERROR: No register with name 'ASR' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.952 ERROR: No register with name 'spr280' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.952 ERROR: No register with name 'spr280' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.952 ERROR: No register with name 'SPR280' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.952 ERROR: No register with name 'SPR280' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.952 ERROR: No register with name 'ear' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.952 ERROR: No register with name 'ear' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.952 ERROR: No register with name 'EAR' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.952 ERROR: No register with name 'EAR' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.952 ERROR: No register with name 'spr282' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.952 ERROR: No register with name 'spr282' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.952 ERROR: No register with name 'SPR282' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.952 ERROR: No register with name 'SPR282' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.952 ERROR: No register with name 'tbl' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.952 ERROR: No register with name 'tbl' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.953 ERROR: No register with name 'TBL' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.953 ERROR: No register with name 'TBL' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.953 ERROR: No register with name 'spr284' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.953 ERROR: No register with name 'spr284' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.953 ERROR: No register with name 'SPR284' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.953 ERROR: No register with name 'SPR284' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.953 ERROR: No register with name 'tbu' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.953 ERROR: No register with name 'tbu' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.953 ERROR: No register with name 'TBU' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.953 ERROR: No register with name 'TBU' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.953 ERROR: No register with name 'spr285' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.953 ERROR: No register with name 'spr285' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.953 ERROR: No register with name 'SPR285' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.953 ERROR: No register with name 'SPR285' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.953 ERROR: No register with name 'svr' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.953 ERROR: No register with name 'svr' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.953 ERROR: No register with name 'SVR' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.953 ERROR: No register with name 'SVR' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.953 ERROR: No register with name 'spr286' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.953 ERROR: No register with name 'spr286' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.953 ERROR: No register with name 'SPR286' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.953 ERROR: No register with name 'SPR286' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.953 ERROR: No register with name 'pvr' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.953 ERROR: No register with name 'pvr' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.953 ERROR: No register with name 'PVR' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.953 ERROR: No register with name 'PVR' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.953 ERROR: No register with name 'spr287' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.953 ERROR: No register with name 'spr287' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.953 ERROR: No register with name 'SPR287' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.953 ERROR: No register with name 'SPR287' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.953 ERROR: No register with name 'immr' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.953 ERROR: No register with name 'immr' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.953 ERROR: No register with name 'IMMR' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.954 ERROR: No register with name 'IMMR' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.954 ERROR: No register with name 'spr638' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.954 ERROR: No register with name 'spr638' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.954 ERROR: No register with name 'SPR638' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.954 ERROR: No register with name 'SPR638' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.954 ERROR: No register with name 'mi_ctr' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.954 ERROR: No register with name 'mi_ctr' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.954 ERROR: No register with name 'MI_CTR' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.954 ERROR: No register with name 'MI_CTR' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.954 ERROR: No register with name 'spr784' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.954 ERROR: No register with name 'spr784' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.954 ERROR: No register with name 'SPR784' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.954 ERROR: No register with name 'SPR784' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.954 ERROR: No register with name 'mi_ap' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.954 ERROR: No register with name 'mi_ap' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.954 ERROR: No register with name 'MI_AP' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.954 ERROR: No register with name 'MI_AP' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.954 ERROR: No register with name 'spr786' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.954 ERROR: No register with name 'spr786' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.955 ERROR: No register with name 'SPR786' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.955 ERROR: No register with name 'SPR786' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.955 ERROR: No register with name 'mi_epn' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.955 ERROR: No register with name 'mi_epn' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.955 ERROR: No register with name 'MI_EPN' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.955 ERROR: No register with name 'MI_EPN' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.955 ERROR: No register with name 'spr787' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.955 ERROR: No register with name 'spr787' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.955 ERROR: No register with name 'SPR787' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.955 ERROR: No register with name 'SPR787' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.955 ERROR: No register with name 'mi_twc' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.955 ERROR: No register with name 'mi_twc' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.955 ERROR: No register with name 'MI_TWC' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.955 ERROR: No register with name 'MI_TWC' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.955 ERROR: No register with name 'spr789' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.955 ERROR: No register with name 'spr789' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.955 ERROR: No register with name 'SPR789' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.955 ERROR: No register with name 'SPR789' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.955 ERROR: No register with name 'mi_rpn' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.955 ERROR: No register with name 'mi_rpn' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.955 ERROR: No register with name 'MI_RPN' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.955 ERROR: No register with name 'MI_RPN' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.955 ERROR: No register with name 'spr790' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.955 ERROR: No register with name 'spr790' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.955 ERROR: No register with name 'SPR790' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.955 ERROR: No register with name 'SPR790' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.956 ERROR: No register with name 'md_ctr' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.956 ERROR: No register with name 'md_ctr' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.956 ERROR: No register with name 'MD_CTR' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.956 ERROR: No register with name 'MD_CTR' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.956 ERROR: No register with name 'spr792' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.956 ERROR: No register with name 'spr792' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.956 ERROR: No register with name 'SPR792' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.956 ERROR: No register with name 'SPR792' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.956 ERROR: No register with name 'm_casid' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.956 ERROR: No register with name 'm_casid' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.956 ERROR: No register with name 'M_CASID' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.956 ERROR: No register with name 'M_CASID' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.956 ERROR: No register with name 'spr793' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.956 ERROR: No register with name 'spr793' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.956 ERROR: No register with name 'SPR793' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.956 ERROR: No register with name 'SPR793' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.956 ERROR: No register with name 'md_ap' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.956 ERROR: No register with name 'md_ap' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.956 ERROR: No register with name 'MD_AP' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.956 ERROR: No register with name 'MD_AP' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.956 ERROR: No register with name 'spr794' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.956 ERROR: No register with name 'spr794' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.956 ERROR: No register with name 'SPR794' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.956 ERROR: No register with name 'SPR794' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.956 ERROR: No register with name 'mmcr0' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.956 ERROR: No register with name 'mmcr0' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.956 ERROR: No register with name 'MMCR0' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.956 ERROR: No register with name 'MMCR0' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.956 ERROR: No register with name 'spr952' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.956 ERROR: No register with name 'spr952' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.956 ERROR: No register with name 'SPR952' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.956 ERROR: No register with name 'SPR952' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.957 ERROR: No register with name 'pmc1' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.957 ERROR: No register with name 'pmc1' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.957 ERROR: No register with name 'PMC1' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.957 ERROR: No register with name 'PMC1' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.957 ERROR: No register with name 'spr953' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.957 ERROR: No register with name 'spr953' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.957 ERROR: No register with name 'SPR953' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.957 ERROR: No register with name 'SPR953' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.957 ERROR: No register with name 'pmc2' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.957 ERROR: No register with name 'pmc2' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.957 ERROR: No register with name 'PMC2' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.957 ERROR: No register with name 'PMC2' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.957 ERROR: No register with name 'spr954' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.957 ERROR: No register with name 'spr954' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.957 ERROR: No register with name 'SPR954' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.957 ERROR: No register with name 'SPR954' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.957 ERROR: No register with name 'sia' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.957 ERROR: No register with name 'sia' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.957 ERROR: No register with name 'SIA' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.957 ERROR: No register with name 'SIA' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.957 ERROR: No register with name 'spr955' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.957 ERROR: No register with name 'spr955' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.957 ERROR: No register with name 'SPR955' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.957 ERROR: No register with name 'SPR955' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.957 ERROR: No register with name 'sda' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.957 ERROR: No register with name 'sda' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.957 ERROR: No register with name 'SDA' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.957 ERROR: No register with name 'SDA' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.957 ERROR: No register with name 'spr959' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.957 ERROR: No register with name 'spr959' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.957 ERROR: No register with name 'SPR959' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.957 ERROR: No register with name 'SPR959' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.958 ERROR: No register with name 'hid0' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.958 ERROR: No register with name 'hid0' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.958 ERROR: No register with name 'HID0' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.958 ERROR: No register with name 'HID0' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.958 ERROR: No register with name 'spr1008' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.958 ERROR: No register with name 'spr1008' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.958 ERROR: No register with name 'SPR1008' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.958 ERROR: No register with name 'SPR1008' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.958 ERROR: No register with name 'hid1' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.958 ERROR: No register with name 'hid1' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.958 ERROR: No register with name 'HID1' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.958 ERROR: No register with name 'HID1' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.958 ERROR: No register with name 'spr1009' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.958 ERROR: No register with name 'spr1009' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.958 ERROR: No register with name 'SPR1009' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.958 ERROR: No register with name 'SPR1009' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.958 ERROR: No register with name 'iabr' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.958 ERROR: No register with name 'iabr' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.958 ERROR: No register with name 'IABR' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.958 ERROR: No register with name 'IABR' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.958 ERROR: No register with name 'spr1010' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.958 ERROR: No register with name 'spr1010' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.958 ERROR: No register with name 'SPR1010' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.958 ERROR: No register with name 'SPR1010' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.958 ERROR: No register with name 'hid2' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.958 ERROR: No register with name 'hid2' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.958 ERROR: No register with name 'HID2' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.958 ERROR: No register with name 'HID2' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.958 ERROR: No register with name 'spr1011' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.958 ERROR: No register with name 'spr1011' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.958 ERROR: No register with name 'SPR1011' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.958 ERROR: No register with name 'SPR1011' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.959 ERROR: No register with name 'dabr' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.959 ERROR: No register with name 'dabr' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.959 ERROR: No register with name 'DABR' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.959 ERROR: No register with name 'DABR' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.959 ERROR: No register with name 'spr1013' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.959 ERROR: No register with name 'spr1013' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.959 ERROR: No register with name 'SPR1013' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.959 ERROR: No register with name 'SPR1013' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.959 ERROR: No register with name 'msscr0' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.959 ERROR: No register with name 'msscr0' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.959 ERROR: No register with name 'MSSCR0' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.959 ERROR: No register with name 'MSSCR0' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.959 ERROR: No register with name 'spr1014' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.959 ERROR: No register with name 'spr1014' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.959 ERROR: No register with name 'SPR1014' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.959 ERROR: No register with name 'SPR1014' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.959 ERROR: No register with name 'ictc' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.959 ERROR: No register with name 'ictc' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.959 ERROR: No register with name 'ICTC' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.959 ERROR: No register with name 'ICTC' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.959 ERROR: No register with name 'spr1019' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.959 ERROR: No register with name 'spr1019' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.959 ERROR: No register with name 'SPR1019' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.959 ERROR: No register with name 'SPR1019' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.959 ERROR: No register with name 'pir' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.959 ERROR: No register with name 'pir' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.959 ERROR: No register with name 'PIR' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.959 ERROR: No register with name 'PIR' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.959 ERROR: No register with name 'spr1023' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.960 ERROR: No register with name 'spr1023' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.960 ERROR: No register with name 'SPR1023' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.960 ERROR: No register with name 'SPR1023' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:31.961 ERROR: No information available for stack walk
+  SevError(2) : ppi_ppc_stack.cpp : 5412
+17:33:32.431 ERROR: No register with name 'cr4' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:32.431 ERROR: No register with name 'cr4' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:32.431 ERROR: No register with name 'cr6' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:32.431 ERROR: No register with name 'cr6' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:32.431 ERROR: No register with name 'cr5' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:32.431 ERROR: No register with name 'cr5' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:32.431 ERROR: No register with name 'cr6' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:32.432 ERROR: No register with name 'cr6' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:32.432 ERROR: No register with name 'cr6' exists: SCRegisterAccess::GetRegister
+  SevError(2) : scregaccess.cpp : 2825
+17:33:32.432 ERROR: No register with name 'cr6' exists
+  SevError(2) : scregaccess.cpp : 2825
+17:33:37.227 ERROR: The TOS object is not initialized
+  Tos Component : SevError(2) : tosobject.cpp : 2205
+17:33:37.314 ERROR: The TOS object is not initialized
+  Tos Component : SevError(2) : tosobject.cpp : 2205
+17:33:37.315 ERROR: The TOS object is not initialized
+  Tos Component : SevError(2) : tosobject.cpp : 2205
+17:33:37.334 ERROR: The TOS object is not initialized
+  Tos Component : SevError(2) : tosobject.cpp : 2205
+17:33:37.335 ERROR: The TOS object is not initialized
+  Tos Component : SevError(2) : tosobject.cpp : 2205
+17:33:37.370 ERROR: No scope for address: CallTraceList::GetFunctionStart
+  SevError(2) : callstacklist.cpp : 470
+17:33:37.370 ERROR: No scope for address
+  SevError(2) : callstacklist.cpp : 470
+17:33:37.371 ERROR: No information available for stack walk
+  SevError(2) : ppi_ppc_stack.cpp : 5412
+17:33:37.510 ERROR: No scope for address: CallTraceList::GetFunctionStart
+  SevError(2) : callstacklist.cpp : 470
+17:33:37.510 ERROR: No scope for address
+  SevError(2) : callstacklist.cpp : 470
+17:33:37.535 ERROR: No information available for stack walk
+  SevError(2) : ppi_ppc_stack.cpp : 5692
+17:33:37.536 ERROR: No information available for stack walk
+  SevError(2) : ppi_ppc_stack.cpp : 5692
+17:33:37.546 ERROR: No information available for stack walk
+  SevError(2) : ppi_ppc_stack.cpp : 5692
+17:33:37.548 ERROR: Invalid address
+  SevError(2) : memorymap.cpp : 3028
+17:33:37.548 ERROR: No information available for stack walk
+  SevError(2) : ppi_ppc_stack.cpp : 5692
+17:33:37.551 ERROR: No information available for stack walk
+  SevError(2) : ppi_ppc_stack.cpp : 5692
+17:33:37.723 ERROR: Read access not allowed
+  SevError(2) : wtxmemory.cpp : 242
+17:33:37.724 ERROR: Read access not allowed
+  SevError(2) : wtxmemory.cpp : 242
+17:33:37.725 ERROR: Read access not allowed
+  SevError(2) : wtxmemory.cpp : 242
+17:33:37.726 ERROR: Read access not allowed
+  SevError(2) : wtxmemory.cpp : 242
+17:33:37.727 ERROR: Read access not allowed
+  SevError(2) : wtxmemory.cpp : 242
+17:33:37.727 ERROR: Read access not allowed
+  SevError(2) : wtxmemory.cpp : 242
+17:33:37.728 ERROR: Read access not allowed
+  SevError(2) : wtxmemory.cpp : 242
+17:33:37.729 ERROR: Read access not allowed
+  SevError(2) : wtxmemory.cpp : 242
+17:33:37.730 ERROR: Read access not allowed
+  SevError(2) : wtxmemory.cpp : 242
+17:33:37.731 ERROR: Read access not allowed
+  SevError(2) : wtxmemory.cpp : 242
+17:33:37.731 ERROR: Read access not allowed
+  SevError(2) : wtxmemory.cpp : 242
+17:33:37.732 ERROR: Read access not allowed
+  SevError(2) : wtxmemory.cpp : 242
+17:33:42.208 ERROR: No source line at this address
+  Protocol Component : SevError(2) : miserialize.cpp : 1977
+17:33:42.209 ERROR: No source line at this address
+  Protocol Component : SevError(2) : miserialize.cpp : 1977
+17:33:45.050 ERROR: No source line at this address
+  Protocol Component : SevError(2) : miserialize.cpp : 1977
+17:33:45.051 ERROR: No source line at this address
+  Protocol Component : SevError(2) : miserialize.cpp : 1977
+17:41:40.210 ERROR: Target not connected
+  SevError(2) : torwtxCommon.cpp : 1057
+17:41:43.114 ERROR: WTX Agent Error: Invalid parameters
+  SevError(2) : wtxerrors.cpp : 1035
+17:41:43.142 ERROR: WTX Agent Error: Invalid context. Check validity and property of context (context could be unbreakable...).
+  SevError(2) : wtxerrors.cpp : 1035
+17:41:43.180 ERROR: WTX Agent Error: Invalid parameters
+  SevError(2) : wtxerrors.cpp : 1035
+17:41:43.180 ERROR: WTX Agent Error: Invalid context. Check validity and property of context (context could be unbreakable...).
+  SevError(2) : wtxerrors.cpp : 1035
+17:41:43.181 WARNING: Object file has minimal debug information: /tmpout/FRC_NetworkCommunication.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:41:43.270 ERROR: WTX Agent Error: No agent process
+  SevError(2) : wtxerrors.cpp : 1035
+17:41:43.337 ERROR: WTX Agent Error: No agent process
+  SevError(2) : wtxerrors.cpp : 1035
+17:41:43.356 ERROR: WTX Agent Error: No agent process
+  SevError(2) : wtxerrors.cpp : 1035
+17:41:43.536 WARNING: Object file has minimal debug information: /tmpout/FRC_FPGA_ChipObject.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:41:43.638 WARNING: Object file has minimal debug information: /tmpout/NiFpga.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:41:43.644 WARNING: Object file has minimal debug information: /tmpout/niserial.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:41:43.672 WARNING: Object file has minimal debug information: /tmpout/nivision.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:41:43.691 WARNING: Object file has minimal debug information: /tmpout/nivissvc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:41:43.697 WARNING: Object file has minimal debug information: /tmpout/nisysrpc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:41:44.020 WARNING: Object file has minimal debug information: /tmpout/lvrt.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:41:44.089 WARNING: Object file has minimal debug information: /tmpout/niriomtk.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:41:44.108 WARNING: Object file has minimal debug information: /tmpout/target.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:41:44.126 WARNING: Object file has minimal debug information: /tmpout/vx_exec.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:41:44.131 WARNING: Object file has minimal debug information: /c/ni-rt/system/NiFpgaLv.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:41:44.138 WARNING: Object file has minimal debug information: /c/ni-rt/system/NiViSv32.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:41:44.148 WARNING: Object file has minimal debug information: /tmpout/NiRioSrv.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:41:44.156 WARNING: Object file has minimal debug information: /c/ni-rt/system/ni_emb.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:41:44.163 WARNING: Object file has minimal debug information: /tmpout/visa32.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:41:44.168 WARNING: Object file has minimal debug information: /tmpout/nisvcloc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:41:44.180 WARNING: Object file has minimal debug information: /tmpout/nirpcs.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:41:44.194 WARNING: Object file has minimal debug information: /tmpout/niCPULib.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:41:44.208 WARNING: Object file has minimal debug information: /c/ni-rt/system/nirtdm.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:41:44.219 WARNING: Object file has minimal debug information: /tmpout/nisysapi.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:41:44.223 WARNING: Object file has minimal debug information: /c/ni-rt/system/debug.o
+  SevWarning(1) : symbolmanager.cpp : 171
+17:41:44.230 WARNING: Object file has minimal debug information: /tmpout/tsengine.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:41:44.242 WARNING: Object file has minimal debug information: /tmpout/libexpat.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:41:44.256 WARNING: Object file has minimal debug information: /tmpout/nimdnsResponder.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:41:44.261 WARNING: Object file has minimal debug information: /c/ni-rt/system/vxfpsup.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:41:44.267 WARNING: Object file has minimal debug information: /c/ni-rt/system/NiRioRpc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:41:44.271 WARNING: Object file has minimal debug information: /c/ni-rt/system/nipci.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:41:44.282 WARNING: Object file has minimal debug information: /c/ni-rt/system/ftpserve.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:41:44.297 WARNING: Object file has minimal debug information: /c/ni-rt/system/NetConsole.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:41:44.301 WARNING: Object file has minimal debug information: /c/ni-rt/system/ts_rtc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:41:44.306 WARNING: Object file has minimal debug information: /tmpout/libiconv.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:41:44.317 WARNING: Object file has minimal debug information: /c/ni-rt/system/lvuste.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:42:42.312 ERROR: Target not connected
+  SevError(2) : torwtxCommon.cpp : 1057
+17:42:43.396 WARNING: Object file has minimal debug information: /tmpout/nivision.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:42:43.397 ERROR: The register model 'UndefReg' is not supported by the system
+  SevError(2) : programcontext.cpp : 4384
+17:42:43.449 WARNING: Object file has minimal debug information: /c/ni-rt/system/NiViSv32.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:42:43.492 WARNING: Object file has minimal debug information: /tmpout/visa32.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:42:43.525 WARNING: Object file has minimal debug information: /tmpout/nivissvc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:42:43.532 WARNING: Object file has minimal debug information: /tmpout/nisysrpc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:42:43.837 WARNING: Object file has minimal debug information: /tmpout/lvrt.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:42:43.854 WARNING: Object file has minimal debug information: /tmpout/niriomtk.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:42:43.860 WARNING: Object file has minimal debug information: /tmpout/target.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:42:43.878 WARNING: Object file has minimal debug information: /tmpout/vx_exec.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:42:43.888 WARNING: Object file has minimal debug information: /tmpout/NiRioSrv.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:42:43.894 WARNING: Object file has minimal debug information: /c/ni-rt/system/ni_emb.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:42:43.898 WARNING: Object file has minimal debug information: /tmpout/nisvcloc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:42:43.906 WARNING: Object file has minimal debug information: /tmpout/nirpcs.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:42:43.910 WARNING: Object file has minimal debug information: /tmpout/niserial.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:42:43.917 WARNING: Object file has minimal debug information: /tmpout/niCPULib.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:42:43.922 WARNING: Object file has minimal debug information: /c/ni-rt/system/nirtdm.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:42:43.936 WARNING: Object file has minimal debug information: /tmpout/nisysapi.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:42:44.001 WARNING: Object file has minimal debug information: /c/ni-rt/system/debug.o
+  SevWarning(1) : symbolmanager.cpp : 171
+17:42:44.006 WARNING: Object file has minimal debug information: /tmpout/tsengine.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:42:44.012 WARNING: Object file has minimal debug information: /tmpout/libexpat.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:42:44.018 WARNING: Object file has minimal debug information: /tmpout/nimdnsResponder.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:42:44.025 WARNING: Object file has minimal debug information: /tmpout/NiFpga.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:42:44.029 WARNING: Object file has minimal debug information: /c/ni-rt/system/vxfpsup.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:42:44.035 WARNING: Object file has minimal debug information: /c/ni-rt/system/NiRioRpc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:42:44.039 WARNING: Object file has minimal debug information: /c/ni-rt/system/nipci.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:42:44.046 WARNING: Object file has minimal debug information: /c/ni-rt/system/ftpserve.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:42:44.057 WARNING: Object file has minimal debug information: /c/ni-rt/system/NetConsole.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:42:44.061 WARNING: Object file has minimal debug information: /c/ni-rt/system/ts_rtc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:42:44.065 WARNING: Object file has minimal debug information: /tmpout/libiconv.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:42:44.069 WARNING: Object file has minimal debug information: /c/ni-rt/system/lvuste.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:42:44.075 WARNING: Object file has minimal debug information: /c/ni-rt/system/NiFpgaLv.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:42:45.222 WARNING: Object file has minimal debug information: /tmpout/FRC_FPGA_ChipObject.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:42:45.316 WARNING: Object file has minimal debug information: /tmpout/FRC_NetworkCommunication.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:42:51.509 WARNING: Object file has minimal debug information: /c/ni-rt/system/libpcre.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:42:52.777 WARNING: Object file has minimal debug information: /c/ni-rt/system/FRC_UserProgram.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:46:31.192 ERROR: Target not connected
+  SevError(2) : torwtxCommon.cpp : 1057
+17:46:33.420 WARNING: Object file has minimal debug information: /tmpout/FRC_FPGA_ChipObject.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:46:33.428 WARNING: Object file has minimal debug information: /tmpout/NiFpga.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:46:33.450 WARNING: Object file has minimal debug information: /tmpout/niserial.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:46:33.477 WARNING: Object file has minimal debug information: /tmpout/nivision.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:46:33.496 WARNING: Object file has minimal debug information: /tmpout/nivissvc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:46:33.502 WARNING: Object file has minimal debug information: /tmpout/nisysrpc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:46:33.806 WARNING: Object file has minimal debug information: /tmpout/lvrt.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:46:33.823 WARNING: Object file has minimal debug information: /tmpout/niriomtk.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:46:33.830 WARNING: Object file has minimal debug information: /tmpout/target.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:46:33.901 WARNING: Object file has minimal debug information: /tmpout/vx_exec.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:46:33.910 WARNING: Object file has minimal debug information: /c/ni-rt/system/NiFpgaLv.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:46:33.917 WARNING: Object file has minimal debug information: /c/ni-rt/system/NiViSv32.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:46:33.928 WARNING: Object file has minimal debug information: /tmpout/NiRioSrv.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:46:33.935 WARNING: Object file has minimal debug information: /c/ni-rt/system/ni_emb.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:46:33.942 WARNING: Object file has minimal debug information: /tmpout/visa32.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:46:33.947 WARNING: Object file has minimal debug information: /tmpout/nisvcloc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:46:33.955 WARNING: Object file has minimal debug information: /tmpout/nirpcs.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:46:33.963 WARNING: Object file has minimal debug information: /tmpout/niCPULib.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:46:33.977 WARNING: Object file has minimal debug information: /c/ni-rt/system/nirtdm.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:46:33.989 WARNING: Object file has minimal debug information: /tmpout/nisysapi.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:46:33.994 WARNING: Object file has minimal debug information: /c/ni-rt/system/debug.o
+  SevWarning(1) : symbolmanager.cpp : 171
+17:46:33.999 WARNING: Object file has minimal debug information: /tmpout/tsengine.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:46:34.006 WARNING: Object file has minimal debug information: /tmpout/libexpat.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:46:34.012 WARNING: Object file has minimal debug information: /tmpout/nimdnsResponder.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:46:34.020 WARNING: Object file has minimal debug information: /c/ni-rt/system/vxfpsup.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:46:34.033 WARNING: Object file has minimal debug information: /c/ni-rt/system/NiRioRpc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:46:34.039 WARNING: Object file has minimal debug information: /c/ni-rt/system/nipci.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:46:34.043 WARNING: Object file has minimal debug information: /c/ni-rt/system/ftpserve.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:46:34.048 WARNING: Object file has minimal debug information: /c/ni-rt/system/NetConsole.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:46:34.053 WARNING: Object file has minimal debug information: /c/ni-rt/system/ts_rtc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:46:34.058 WARNING: Object file has minimal debug information: /tmpout/libiconv.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:46:34.062 WARNING: Object file has minimal debug information: /c/ni-rt/system/lvuste.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:46:34.355 WARNING: Object file has minimal debug information: /tmpout/FRC_NetworkCommunication.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:46:40.401 WARNING: Object file has minimal debug information: /c/ni-rt/system/libpcre.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:46:42.052 WARNING: Object file has minimal debug information: /c/ni-rt/system/FRC_UserProgram.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:50:26.570 ERROR: Target not connected
+  SevError(2) : torwtxCommon.cpp : 1057
+17:50:28.442 WARNING: Object file has minimal debug information: /tmpout/niserial.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:50:28.521 WARNING: Object file has minimal debug information: /tmpout/nivision.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:50:28.539 WARNING: Object file has minimal debug information: /tmpout/nivissvc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:50:28.545 WARNING: Object file has minimal debug information: /tmpout/nisysrpc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:50:28.849 WARNING: Object file has minimal debug information: /tmpout/lvrt.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:50:28.866 WARNING: Object file has minimal debug information: /tmpout/niriomtk.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:50:28.871 WARNING: Object file has minimal debug information: /tmpout/target.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:50:28.889 WARNING: Object file has minimal debug information: /tmpout/vx_exec.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:50:28.896 WARNING: Object file has minimal debug information: /c/ni-rt/system/NiViSv32.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:50:28.905 WARNING: Object file has minimal debug information: /tmpout/NiRioSrv.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:50:28.912 WARNING: Object file has minimal debug information: /c/ni-rt/system/ni_emb.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:50:28.919 WARNING: Object file has minimal debug information: /tmpout/visa32.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:50:28.923 WARNING: Object file has minimal debug information: /tmpout/nisvcloc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:50:28.929 WARNING: Object file has minimal debug information: /tmpout/nirpcs.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:50:28.936 WARNING: Object file has minimal debug information: /tmpout/niCPULib.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:50:28.941 WARNING: Object file has minimal debug information: /c/ni-rt/system/nirtdm.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:50:28.951 WARNING: Object file has minimal debug information: /tmpout/nisysapi.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:50:28.955 WARNING: Object file has minimal debug information: /c/ni-rt/system/debug.o
+  SevWarning(1) : symbolmanager.cpp : 171
+17:50:28.962 WARNING: Object file has minimal debug information: /tmpout/NiFpga.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:50:28.968 WARNING: Object file has minimal debug information: /tmpout/tsengine.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:50:28.978 WARNING: Object file has minimal debug information: /tmpout/libexpat.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:50:29.038 WARNING: Object file has minimal debug information: /tmpout/nimdnsResponder.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:50:29.043 WARNING: Object file has minimal debug information: /c/ni-rt/system/vxfpsup.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:50:29.047 WARNING: Object file has minimal debug information: /c/ni-rt/system/NiRioRpc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:50:29.051 WARNING: Object file has minimal debug information: /c/ni-rt/system/nipci.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:50:29.055 WARNING: Object file has minimal debug information: /c/ni-rt/system/ftpserve.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:50:29.059 WARNING: Object file has minimal debug information: /c/ni-rt/system/NetConsole.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:50:29.063 WARNING: Object file has minimal debug information: /c/ni-rt/system/ts_rtc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:50:29.067 WARNING: Object file has minimal debug information: /tmpout/libiconv.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:50:29.070 WARNING: Object file has minimal debug information: /c/ni-rt/system/lvuste.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:50:29.078 WARNING: Object file has minimal debug information: /c/ni-rt/system/NiFpgaLv.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:50:29.561 WARNING: Object file has minimal debug information: /tmpout/FRC_FPGA_ChipObject.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:50:29.947 WARNING: Object file has minimal debug information: /tmpout/FRC_NetworkCommunication.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:50:36.385 WARNING: Object file has minimal debug information: /c/ni-rt/system/libpcre.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:50:37.745 WARNING: Object file has minimal debug information: /c/ni-rt/system/FRC_UserProgram.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:53:40.818 ERROR: Target not connected
+  SevError(2) : torwtxCommon.cpp : 1057
+17:53:42.710 WARNING: Object file has minimal debug information: /tmpout/NiFpga.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:53:42.751 WARNING: Object file has minimal debug information: /c/ni-rt/system/NiFpgaLv.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:53:42.837 WARNING: Object file has minimal debug information: /tmpout/niserial.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:53:42.864 WARNING: Object file has minimal debug information: /tmpout/nivision.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:53:42.883 WARNING: Object file has minimal debug information: /tmpout/nivissvc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:53:42.889 WARNING: Object file has minimal debug information: /tmpout/nisysrpc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:53:43.202 WARNING: Object file has minimal debug information: /tmpout/lvrt.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:53:43.219 WARNING: Object file has minimal debug information: /tmpout/niriomtk.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:53:43.225 WARNING: Object file has minimal debug information: /tmpout/target.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:53:43.243 WARNING: Object file has minimal debug information: /tmpout/vx_exec.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:53:43.249 WARNING: Object file has minimal debug information: /c/ni-rt/system/NiViSv32.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:53:43.261 WARNING: Object file has minimal debug information: /tmpout/NiRioSrv.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:53:43.269 WARNING: Object file has minimal debug information: /c/ni-rt/system/ni_emb.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:53:43.341 WARNING: Object file has minimal debug information: /tmpout/visa32.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:53:43.346 WARNING: Object file has minimal debug information: /tmpout/nisvcloc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:53:43.353 WARNING: Object file has minimal debug information: /tmpout/nirpcs.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:53:43.360 WARNING: Object file has minimal debug information: /tmpout/niCPULib.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:53:43.366 WARNING: Object file has minimal debug information: /c/ni-rt/system/nirtdm.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:53:43.377 WARNING: Object file has minimal debug information: /tmpout/nisysapi.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:53:43.383 WARNING: Object file has minimal debug information: /c/ni-rt/system/debug.o
+  SevWarning(1) : symbolmanager.cpp : 171
+17:53:43.396 WARNING: Object file has minimal debug information: /tmpout/tsengine.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:53:43.403 WARNING: Object file has minimal debug information: /tmpout/libexpat.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:53:43.409 WARNING: Object file has minimal debug information: /tmpout/nimdnsResponder.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:53:43.414 WARNING: Object file has minimal debug information: /c/ni-rt/system/vxfpsup.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:53:43.419 WARNING: Object file has minimal debug information: /c/ni-rt/system/NiRioRpc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:53:43.423 WARNING: Object file has minimal debug information: /c/ni-rt/system/nipci.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:53:43.435 WARNING: Object file has minimal debug information: /c/ni-rt/system/ftpserve.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:53:43.440 WARNING: Object file has minimal debug information: /c/ni-rt/system/NetConsole.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:53:43.445 WARNING: Object file has minimal debug information: /c/ni-rt/system/ts_rtc.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:53:43.449 WARNING: Object file has minimal debug information: /tmpout/libiconv.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:53:43.453 WARNING: Object file has minimal debug information: /c/ni-rt/system/lvuste.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:53:43.935 WARNING: Object file has minimal debug information: /c/ni-rt/system/NiFpgaLv.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:53:44.176 WARNING: Object file has minimal debug information: /tmpout/FRC_FPGA_ChipObject.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:53:44.265 WARNING: Object file has minimal debug information: /tmpout/FRC_NetworkCommunication.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:53:50.642 WARNING: Object file has minimal debug information: /c/ni-rt/system/libpcre.out
+  SevWarning(1) : symbolmanager.cpp : 171
+17:53:51.985 WARNING: Object file has minimal debug information: /c/ni-rt/system/FRC_UserProgram.out
+  SevWarning(1) : symbolmanager.cpp : 171
+18:12:20.910 ERROR: target server back-end disconnected
+  SevError(2) : torwtxCommon.cpp : 1086
+18:12:21.300 ERROR: Disconnect in progress
+  SevError(2) : scruncontrol.cpp : 869
+18:12:21.752 ERROR: The program context is marked as deleted
+  SevError(2) : scruncontrol.cpp : 865
+18:12:21.752 ERROR: Program context has no Core defined
+  SevError(2) : tccoreinfo.cpp : 609
+18:12:21.752 ERROR: Invalid core (CPU) id
+  SevError(2) : tccoreinfo.cpp : 849
+18:12:21.752 ERROR: Program context has no Core defined
+  SevError(2) : targetcomponent.cpp : 1275
+18:12:21.752 ERROR: Program context is undefined
+  SevError(2) : targetcomponent.cpp : 4534
+18:12:21.752 ERROR: Program context has no Core defined
+  SevError(2) : tccoreinfo.cpp : 508
+18:12:21.752 ERROR: Program context has no Core defined
+  SevError(2) : tccoreinfo.cpp : 416
+18:12:21.752 ERROR: Program context has no Core defined
+  SevError(2) : targetcomponent.cpp : 1033
+18:12:21.815 ERROR: Target not connected: TargetComponent::CheckInitAndConnect
+  SevError(2) : targetcomponent.cpp : 2813
+18:12:21.815 ERROR: Target not connected
+  SevError(2) : targetcomponent.cpp : 2813
+18:12:22.532 ERROR: no id specified
+  SevError(2) : programcontext.cpp : 5450
+18:12:23.468 ERROR: Target not connected: TargetComponent::CheckInitAndConnect
+  SevError(2) : targetcomponent.cpp : 2813
+18:12:23.468 ERROR: Target not connected
+  SevError(2) : targetcomponent.cpp : 2813
+18:12:23.468 ERROR: no id specified
+  SevError(2) : programcontext.cpp : 5450
+18:12:44.872 ERROR: Socket Error. API: recv, SessionId: 792, ReturnCode:  [SystemErrorCode=10054]: SocketHandler::Read
+  Protocol Component : SevError(2) : sockethandler.cpp : 102
+18:12:44.872 ERROR: Socket Error. API: recv, SessionId: 792, ReturnCode:  [SystemErrorCode=10054]
+  Protocol Component : SevError(2) : sockethandler.cpp : 102
+18:12:44.950 ERROR: target definition defaultTarget has not been created
+  Protocol Component : SevError(2) : targetdefinitionmanager.cpp : 5122
+18:12:45.028 ERROR: target definition VxWorks6x_10.26.3.2 has not been created
+  Protocol Component : SevError(2) : targetdefinitionmanager.cpp : 5122
+18:12:45.028 Operation succeeded: ShutdownServer
+  Reason: ERRNone  Severity: ERRSuccessful18:12:45.028 ERROR: target definition defaultTarget has not been created
+  Protocol Component : SevError(2) : targetdefinitionmanager.cpp : 5122
+18:12:45.028 ERROR: target definition VxWorks6x_10.26.3.2 has not been created
+  Protocol Component : SevError(2) : targetdefinitionmanager.cpp : 5122
